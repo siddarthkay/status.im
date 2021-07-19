@@ -6,13 +6,15 @@ description: Status Node is an Ethereum client supporting the Status app.
 
 ## Why Run Status Node?
 
-Currently, we don't provide any incentives for running Status Nodes. We are working hard to solve this problem. Our intent is to increase the size of the Waku network, thereby improving how decentralized and safe our platform is.
+Currently, there are no crypto incentives for running Status Nodes. We are working hard to solve this problem. Our intent is to increase the size of the Waku network, improving how decentralized and safe our platform is.
 
-Another reason is privacy. In the current setup, most nodes - both relay and historical ones - are running as part of Status infrastructure. This means that Status has a wide view of most of the network. While all traffic in Waku is encrypted, the metadata that could be gathered this way can leak so information. If one wants to avoid that, the best option is to run a node on your own and configure it in the Status app.
+### Privacy
+
+Another reason is privacy. In the current setup, most nodes - both relay and historical ones - are running as part of Status infrastructure. This means that Status has a wide view of most of the network. While all traffic in Waku is encrypted, the metadata that could be gathered this way can leak some information. The best way to avoid that is to run your own node and configure it in the Status app.
 
 ### Community
 
-By running your own node you provide additional nodes for the Status community. We encourage anyone to publish the enode addresses of their nodes for others to use. We also recommend running them as a permanent service or a docker container, so that it keeps running after system restart or a runtime node error.
+Running your own node provides additional nodes for the Status community. We encourage anyone to publish the enode addresses of their nodes for others to use. We also recommend running them as a permanent service or a docker container, so that it keeps running after system restart or a runtime node error.
 
 ### Types of Nodes
 
@@ -24,20 +26,20 @@ By running your own node you provide additional nodes for the Status community. 
 
 Status Node is a modified [go-ethereum](https://github.com/ethereum/go-ethereum) node called [status-go](https://github.com/status-im/status-go) running on a server and supporting the Status app. As we operate in a decentralized model, we need multiple peers scattered around the globe to provide a reliable service.
 
-When correctly configured a Status Node supports relaying Waku messages - helps propagate them between nodes - and storing them for devices that were offline when it was sent.
+Status Nodes support relaying Waku messages, propagating them between nodes, and support storing them for devices that were offline when the message was sent.
 
 ### Requirements
 
-A machine running Linux or MacOS is required. It is entirely possible to run a Status Node on a physical machine in a local network, but for full functionality it would require a public and static IP address via which the service can be accessed.
+A machine running Linux or MacOS is required. It is entirely possible to run a Status Node on a physical machine in a local network, but full functionality requires a public and static IP address via which the service can be accessed.
 
-An alternative would be to use a [cloud service provider](https://en.wikipedia.org/wiki/Cloud_computing) which would provide you with a public and static IP out of the box in most cases. Using a cloud service would also provide you with the high uptime necessary to collect as many envelopes as possible for later retrieval.
+[Cloud service providers](https://en.wikipedia.org/wiki/Cloud_computing) are an alternative which provides a public and static IP automatically in most cases. Cloud service providers may also provide stronger guarantees of uptime, so that more envelopes can be collected for later retrieval.
 
-A single instance with 1GB of RAM and 1 vCPU should be enough to run Status Node reliably.
+1GB of RAM and 1 vCPU on a single instance is typically sufficient to run a Status Node reliably.
 
-In terms of software the minimum would include `make` and `jq`. If you want to build `status-go` you will also need `golang`, version `1.13` or higher.
-A nice-to-have is `qrencode` to display q QR Code with your `enode://` address.
+Minimum software requirements are `make` and `jq`. If you want to build `status-go` you will also need `golang`, version `1.13` or higher.
+A nice-to-have is `qrencode` to display a QR Code with your `enode://` address.
 
-For Ubuntu `20.04` you can just do:
+Ex. for Ubuntu `20.04`:
 ```
 sudo apt install make jq golang qrencode
 ```
@@ -50,24 +52,27 @@ sudo apt install make jq golang qrencode
 
 ## Quick Start
 
-The quickest way to start a node is using our `Makefile` scripts. You can read about that [here](https://github.com/status-im/status-go/blob/develop/MAILSERVER.md).
+The quickest way to start a node is using our `Makefile` scripts. See [here](https://github.com/status-im/status-go/blob/develop/MAILSERVER.md) for details.
 
-In simple terms you clone the [status-go](https://github.com/status-im/status-go) repo and run:
+1. Clone the [status-go](https://github.com/status-im/status-go) repo.
+
+2. (Docker) If running inside a Docker container:
 ```sh
 make run-mailserver-docker
 ```
-or
+For more details consult the [Docker](https://github.com/status-im/status-go/blob/develop/_assets/compose/mailserver) `README`.
+
+2. (systemd) If running as a systemd service:
 ```sh
 make run-mailserver-systemd
 ```
-To get a Status node running inside of docker or as a systemd service respectively.
-For more details read their own `README` files: [docker](https://github.com/status-im/status-go/blob/develop/_assets/compose/mailserver) and [systemd](https://github.com/status-im/status-go/blob/develop/_assets/systemd/mailserver).
+For more details consult the [systemd](https://github.com/status-im/status-go/blob/develop/_assets/systemd/mailserver) `README`.
 
 ## Manual Approach
 
 ### Building
 
-First you'll have to build a `statusd` binary. To do that simply do:
+First, build a `statusd` binary:
 ```
 mkdir ~/go/src/github.com/status-im
 git clone https://github.com/status-im/status-go ~/go/src/github.com/status-im/status-go
@@ -82,11 +87,11 @@ You can check the available options using the `-h`/`--help` flags:
 ```bash
 ./build/bin/statusd -h
 ```
-The default settings will not let you run a full relay and history node.
+Note that the default settings will not let you run a full relay and history node.
 
 ### Configuration
 
-The configuration is provided as a JSON file. A basic config that will let you run a Waku node that also stores historical messages would look like this:
+The configuration is provided as a JSON file. Here is a basic config to run a Waku node that also stores historical messages:
 
 `./config.json`
 ```json
@@ -107,22 +112,22 @@ The configuration is provided as a JSON file. A basic config that will let you r
 }
 ```
 
-Which can be provided using the `-c` flag:
+Provide it using the `-c` flag:
 ```bash
 $ ./build/bin/statusd -c ./config.json
 ```
 
-For examples of config files check out [this directory](https://github.com/status-im/status-go/tree/develop/config/cli) and this [README](https://github.com/status-im/status-go/blob/develop/config/README.md) for more details on what these options mean.
+For more example config files, check out [this directory](https://github.com/status-im/status-go/tree/develop/config/cli). For details on the config options, consult this [README](https://github.com/status-im/status-go/blob/develop/config/README.md).
 
-You can read the comments for all options in the [following source file](https://github.com/status-im/status-go/blob/develop/params/config.go).
+You can also read the comments for the options in [this source file](https://github.com/status-im/status-go/blob/develop/params/config.go).
 
 ### Metrics
 
-In order to enable Prometheus metrics you'll need to pass some flags:
+To enable Prometheus metrics, use the following flags when running `statusd`:
 ```sh
 ./build/bin/statusd -metrics -metrics-port=9090
 ```
-Which should expose metrics on the `9090` port:
+Metrics will be exposed on the `9090` port:
 ```sh
  > curl -s localhost:9090/metrics | grep '^whisper_envelopes_received_total'
 whisper_envelopes_received_total 123
@@ -130,7 +135,7 @@ whisper_envelopes_received_total 123
 
 ### Healthcheck
 
-The simplest way to check if the service is running is using the JSON RPC administration API:
+To check if the service is running, use the JSON RPC administration API:
 ```sh
  $ export DATA='{"jsonrpc":"2.0","method":"admin_peers","params":[],"id":1}'
  $ curl -s -H 'content-type: application/json' -d "$DATA" localhost:8545 | jq -r '.result[].network.remoteAddress'
@@ -141,9 +146,9 @@ The simplest way to check if the service is running is using the JSON RPC admini
 
 ### Using Docker
 
-Status provides a [docker image](https://hub.docker.com/r/statusteam/status-go/) that is used for running nodes on our fleet as well as using the [Docker Compose setup](https://github.com/status-im/status-go/tree/develop/_assets/compose/mailserver) we provide.
+Status provides a [Docker image](https://hub.docker.com/r/statusteam/status-go/) that is used for running nodes on our fleet as well as using the [Docker Compose setup](https://github.com/status-im/status-go/tree/develop/_assets/compose/mailserver) we provide.
 
-If you'd like to run a container yourself an example of that would be:
+Ex. to run a container yourself:
 ```bash
 docker run --rm \
     -p 8545:8545 \
