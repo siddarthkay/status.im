@@ -5,6 +5,7 @@ module.exports = {
     backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
     visibility: ['responsive', 'hover', 'focus', 'group-hover'],
     translate: ['responsive', 'hover', 'group-hover'],
+    minHeight: ['responsive'],
     maxHeight: ['responsive', 'group-hover'],
     overflow: ['responsive', 'hover', 'group-hover'],
     borderWidth: ['responsive', 'first'],
@@ -30,6 +31,9 @@ module.exports = {
       '6xl': '3.8rem',
       '7xl': '4.8rem',
       '8xl': '5.8rem',
+      '100px': '100px',
+      '88px': '88px',
+      '72px': '72px',
     },
     screens: {
       'xs': { 'max': '450px' },
@@ -133,6 +137,10 @@ module.exports = {
       }),
       maxWidth: {
         'max-w-screen-xl': '1420px'
+      },
+      minHeight: {
+        '320px': '320px',
+        '496px': '496px'
       },
       maxHeight: {
         '0': '0',

@@ -185,6 +185,65 @@ site:
       title: "Create Your Own SNT Financial Model"
       description: "Anyone is welcome to get involved and test the economic models outlined in the workbooks. If you are a researcher, economist, or simply curious about the financial models, please get involved."
       link: "Test the SNT Token Models"
+  status-nodes:
+    intro: 
+      title: "Introducing Phase 0 of the Status Node Program"
+      description-1: "Run a Status Node. Decentralize the world. Earn SNT."
+      description-2: "Apply to our special incentives program to be able to earn $100 SNT."
+      description-3: 'Running a Status node is 100%% free!'
+      link-1: "Apply and Earn"
+    about:
+      title: "What is a Status Node?"
+      description-1: "Status nodes support decentralized, private communication and enable censorship resistance."
+      description-2: "Messages in the Status app are relayed between nodes to reach their destination, using the Waku messaging protocol. These nodes form a distributed network, so there is no single point of vulnerability to governmental action, privacy violation, or censorship. The bigger the network, the more reliable (and decentralized) the Status Network becomes."
+      link-1: "Learn more"
+    phase:
+      title: "Phase 0 is Just the Start"
+      link-1: "Apply here"
+      boxes:
+        box-1:
+          title: "Phase 0"
+          text: "This phase is designed to improve and provide even more decentralization for the Status Network. Each participant will be rewarded with $100 in SNT upon completion of the program."
+        box-2:
+          title: "Application Required"
+          text: "Rewards for this phase will be managed individually, so the program will be limited to 100 people (but anyone is welcome to run a node, and we may have more rewards in the future)."
+        box-3:
+          title: "Long Term Vision"
+          text: "Status nodes will eventually include crypto incentives to reward network participation. As part of this early phase, SNT rewards will be sent to participants."
+    details:
+      title: "Phase 0 Program Details"
+      steps:
+        step-1:
+          title: "Step 1"
+          content: "Apply to become a Status Node Runner by XXX Date [here] (The first 100 people to apply will be accepted.)"
+        step-2:
+          title: "Step 2"
+          content-1: "Launch your status node."
+          content-2: "a) Join the Node Runner intro call; or"
+          content-3: "b) watch the recorded tutorial on how to set up your node; and/or"
+          content-4: "c) Join the #status-node-runners channel for support"
+        step-3:
+          title: "Step 3"
+          content: "Maintain your Status Node for 3 months (insert dates)"
+        step-4:
+          title: "Step 4"
+          content: "Upon completion of the program, Status will send you $100 SNT as a reward"
+    requirements:
+      title: "Program Requirements"
+      boxes:
+        box-1:
+          title: "Setting up a Status Node is free."
+          number: "1"
+        box-2:
+          title: "A machine running Linux or MacOS."
+          number: "2"
+        box-3:
+          title: "Can utilize cloud providers such as AWS or Azure."
+          number: "3"
+    join:
+      title: "Join"
+      status-nodes-link: "#status-node-runners"
+      link: "Apply"
   features:
     intro:
       title: "The Power of Ethereum in Your Pocket"

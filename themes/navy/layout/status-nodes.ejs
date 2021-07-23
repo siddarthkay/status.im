@@ -1,0 +1,313 @@
+<!-- The main content area -->
+<main id="main" role="main">
+
+	<section class="pt-16 md:pt-32 pb-12 xl:pt-56 xl:pb-64 relative">
+		<div class="max-w-screen-2xl mx-auto px-8 md:px-12 xl:px-20" style="z-index: 2;">
+			<div class="grid text-center xl:text-left xl:grid-cols-12 xl:gap-12">
+				<div class="col-span-12 xl:col-span-7 xl:pr-10 relative">
+					<h1
+						class="font-display text-4xl md:text-6xl font-medium xl:text-7xl 2xl:text-8xl leading-normal xl:leading-tight px-0 lg:px-24 mx-0 md:mx-40 lg:mx-72 xl:px-0 xl:mx-0">
+						<%- __('site.status-nodes.intro.title') %>
+					</h1>
+					<p class="text-gray-600 text-lg md:text-2xl font-display font-normal leading-normal mt-6 md:mt-12">
+						<%- __('site.status-nodes.intro.description-1') %>
+							<br class="hidden md:flex" />
+							<%- __('site.status-nodes.intro.description-2') %>
+					</p>
+					<p class="font-bold text-xl md:text-2xl font-display font-normal leading-normal mt-6 md:mt-12">
+						<%- __('site.status-nodes.intro.description-3') %>
+					</p>
+					<a href="#" target="_blank"
+						class="group flex justify-between mt-8 md:mt-12 border transition-all duration-200 linear border-primary-base hover:bg-primary-900 hover:text-white hover:border-primary-900 transition-all linear rounded py-4 px-5 inline-flex bg-blue-base text-white font-special font-bold"
+						style="min-width: 198px;">
+						<%- __('site.status-nodes.intro.link-1') %>
+							<span
+								class="pr-4 group-hover:translate-x-1 transform transition-all my-auto duration-200 linear">
+								<svg width="6" height="13" viewBox="0 0 6 13" xmlns="http://www.w3.org/2000/svg">
+									<path opacity="1" fill-rule="evenodd" clip-rule="evenodd"
+										d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"
+										fill="currentColor"></path>
+								</svg>
+							</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div
+			class="xl:absolute w-full max-w-full xl:h-full xl:w-auto xl:top-0 xl:right-0 xl:py-20 px-0 md:px-48 xl:px-24 -mt-16 -mb-48 md:mb-0 md:mt-16 xl:mt-0">
+			<img class="block m-auto xl:ml-auto w-full h-auto xl:w-auto xl:h-full xl:object-contain"
+				src="/img/status-nodes/hero.png" srcset="/img/status-nodes/hero@2x.png 2x"
+				style="min-width: 320px; max-width: 680px" />
+		</div>
+	</section>
+
+	<section class="grid text-center md:text-left xl:grid-cols-2 pt-0 xl:pt-24 relative">
+		<div class="flex justify-center items-center w-full h-full">
+			<iframe class="min-h-320px md:min-h-496px w-full h-full" src="https://www.youtube.com/embed/Z-C9AtVkN6I"
+				title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
+		<div class="grid xl:grid-cols-12 xl:my-16 bg-blue-gray-light py-24 md:py-40 xl:py-56 px-8 md:px-12 xl:px-40">
+			<div class="xl:col-span-9">
+				<h2 class="font-display text-4xl md:text-5xl xl:text-6xl leading-tight">
+					<%- __('site.status-nodes.about.title') %>
+				</h2>
+				<p
+					class="text-gray-600 text-lg md:text-16 xl:text-18 font-body font-normal leading-2 mt-10 md:mt-16 xl:mt-32">
+					<%- __('site.status-nodes.about.description-1') %>
+						<br />
+						<%- __('site.status-nodes.about.description-2') %>
+				</p>
+				<a href="#" target="_blank"
+					class="group flex justify-between mt-16 xl:mt-20 border transition-all duration-200 linear font-special font-bold transition-all linear rounded py-4 px-5 inline-flex text-black border-black hover:bg-black hover:text-white"
+					style="min-width: 210px;">
+					<%- __('site.status-nodes.about.link-1') %>
+						<span
+							class="pr-4 group-hover:translate-x-1 transform transition-all my-auto duration-200 linear">
+							<svg width="6" height="13" viewBox="0 0 6 13" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="1" fill-rule="evenodd" clip-rule="evenodd"
+									d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"
+									fill="currentColor"></path>
+							</svg>
+						</span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="text-center md:text-left pt-32 md:pt-40 pb-32 md:pb-48 xl:py-56">
+		<div class="max-w-screen-2xl mx-auto px-8 md:px-12 xl:px-20">
+			<h2 class="font-display text-4xl md:text-5xl xl:text-6xl leading-tight">
+				<%- __('site.status-nodes.phase.title') %>
+			</h2>
+			<div class="grid xl:grid-cols-3 gap-16 mt-16 xl:mt-32">
+				<div class="grid gap-6 md:gap-10 w-full" style="height: fit-content;">
+					<div class="flex justify-center items-center rounded-3xl mx-auto md:mx-0 bg-white w-20 h-20 md:w-32 md:h-32 xl:w-40 xl:h-40 shadow-lg p-4 md:p-8"
+						style="border-radius: 8px">
+						<%- image_tag("/img/status-nodes/play.png", {
+							srcset: '/img/status-nodes/play@2x.png 2x' }) %>
+					</div>
+					<h4 class="font-display text-2xl md:text-4xl leading-tight">
+						<%- __('site.status-nodes.phase.boxes.box-1.title') %>
+					</h4>
+					<p class="text-gray-600 text-lg md:text-16 xl:text-18 font-body font-normal leading-2">
+						<%- __('site.status-nodes.phase.boxes.box-1.text') %>
+					</p>
+				</div>
+				<div class="grid gap-6 md:gap-10 w-full" style="height: fit-content;">
+					<div class="flex justify-center items-center rounded-3xl mx-auto md:mx-0 bg-white w-20 h-20 md:w-32 md:h-32 xl:w-40 xl:h-40 shadow-lg p-4 md:p-8"
+						style="border-radius: 8px">
+						<%- image_tag("/img/status-nodes/paper.png", {
+							srcset: '/img/status-nodes/paper@2x.png 2x' }) %>
+					</div>
+					<h4 class="font-display text-2xl md:text-4xl leading-tight">
+						<%- __('site.status-nodes.phase.boxes.box-2.title') %>
+					</h4>
+					<p class="text-gray-600 text-lg md:text-16 xl:text-18 font-body font-normal leading-2">
+						<%- __('site.status-nodes.phase.boxes.box-2.text') %>
+					</p>
+					<a href="#" target="_blank"
+						class="mx-auto md:mx-0 group flex justify-between border transition-all duration-200 linear font-special font-bold transition-all linear rounded py-4 px-5 inline-flex text-white border-black bg-black hover:bg-transparent hover:text-black"
+						style="min-width: 198px; width: fit-content;">
+						<%- __('site.status-nodes.phase.link-1') %>
+							<span
+								class="pr-4 group-hover:translate-x-1 transform transition-all my-auto duration-200 linear">
+								<svg width="6" height="13" viewBox="0 0 6 13" xmlns="http://www.w3.org/2000/svg">
+									<path opacity="1" fill-rule="evenodd" clip-rule="evenodd"
+										d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"
+										fill="currentColor"></path>
+								</svg>
+							</span>
+					</a>
+				</div>
+				<div class="grid gap-6 md:gap-10 w-full" style="height: fit-content;">
+					<div class="flex justify-center items-center rounded-3xl mx-auto md:mx-0 bg-white w-20 h-20 md:w-32 md:h-32 xl:w-40 xl:h-40 shadow-lg p-4 md:p-8"
+						style="border-radius: 8px">
+						<%- image_tag("/img/status-nodes/vision.png", {
+							srcset: '/img/status-nodes/vision@2x.png 2x' }) %>
+					</div>
+					<h4 class="font-display text-2xl md:text-4xl leading-tight">
+						<%- __('site.status-nodes.phase.boxes.box-3.title') %>
+					</h4>
+					<p class="text-gray-600 text-lg md:text-16 xl:text-18 font-body font-normal leading-2">
+						<%- __('site.status-nodes.phase.boxes.box-3.text') %>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="pt-16 md:pt-40 pb-32 xl:pt-56 xl:pb-8">
+		<div class="max-w-screen-2xl mx-auto px-8 md:px-12 xl:px-20">
+			<h2 class="text-center md:text-left font-display text-4xl md:text-5xl xl:text-6xl leading-tight">
+				<%- __('site.status-nodes.details.title') %>
+			</h2>
+			<div class="grid xl:grid-cols-2 md:gap-16 xl:gap-48 mt-10 md:mt-16 xl:mt-32 pt-0 md:pt-4">
+				<div class="order-2 xl:order-none">
+					<%- image_tag("/img/status-nodes/details-desktop.png", {
+						srcset: '/img/status-nodes/details-desktop@2x.png 2x' ,
+						class: 'w-full hidden xl:flex mx-auto' }) %>
+						<%- image_tag("/img/status-nodes/details-tablet.png", {
+							srcset: '/img/status-nodes/details-tablet@2x.png 2x' ,
+							class: 'w-full hidden md:flex xl:hidden mx-auto' , style: 'max-width: 768px;' }) %>
+							<%- image_tag("/img/status-nodes/details-mobile.png", {
+								srcset: '/img/status-nodes/details-mobile@2x.png 2x' ,
+								class: 'w-full flex md:hidden mx-auto' , style: 'max-width: 480px;' }) %>
+				</div>
+				<ul>
+					<li class="relative pl-16 pb-10 md:pb-24">
+						<h5 class="font-display text-4xl md:text-5xl xl:text-6xl leading-tight text-primary-base mb-4">
+							<%- __('site.status-nodes.details.steps.step-1.title') %>
+						</h5>
+						<p
+							class="text-gray-600 text-lg md:text-16 xl:text-18 font-body font-normal leading-2 pt-0 md:pt-2">
+							<%- __('site.status-nodes.details.steps.step-1.content') %>
+						</p>
+						<div class="absolute bg-primary-base rounded-full"
+							style="top: 16px; left: 0; width: 16px; height: 16px"></div>
+						<div class="absolute bg-primary-base"
+							style="top: 32px; left: 8px; width: 1px; height: calc(100% - 16px); transform: translateX(-50%);">
+						</div>
+					</li>
+					<li class="relative pl-16 pb-10 md:pb-24">
+						<h5 class="font-display text-4xl md:text-5xl xl:text-6xl leading-tight text-primary-base mb-4">
+							<%- __('site.status-nodes.details.steps.step-2.title') %>
+						</h5>
+						<p
+							class="text-gray-600 text-lg md:text-16 xl:text-18 font-body font-normal leading-2 pt-0 md:pt-2">
+							&nbsp;<%- __('site.status-nodes.details.steps.step-2.content-1') %><br />
+								&nbsp;<%- __('site.status-nodes.details.steps.step-2.content-2') %><br />
+									&nbsp;<%- __('site.status-nodes.details.steps.step-2.content-3') %><br />
+										&nbsp;<%- __('site.status-nodes.details.steps.step-2.content-4') %>
+						</p>
+						<div class="absolute bg-primary-base rounded-full"
+							style="top: 16px; left: 0; width: 16px; height: 16px"></div>
+						<div class="absolute bg-primary-base"
+							style="top: 32px; left: 8px; width: 1px; height: calc(100% - 16px); transform: translateX(-50%);">
+						</div>
+					</li>
+					<li class="relative pl-16 pb-10 md:pb-24">
+						<h5 class="font-display text-4xl md:text-5xl xl:text-6xl leading-tight text-primary-base mb-4">
+							<%- __('site.status-nodes.details.steps.step-3.title') %>
+						</h5>
+						<p
+							class="text-gray-600 text-lg md:text-16 xl:text-18 font-body font-normal leading-2 pt-0 md:pt-2">
+							<%- __('site.status-nodes.details.steps.step-3.content') %>
+						</p>
+						<div class="absolute bg-primary-base rounded-full"
+							style="top: 16px; left: 0; width: 16px; height: 16px"></div>
+						<div class="absolute bg-primary-base"
+							style="top: 32px; left: 8px; width: 1px; height: calc(100% - 16px); transform: translateX(-50%);">
+						</div>
+					</li>
+					<li class="relative pl-16 pb-10 md:pb-24">
+						<h5 class="font-display text-4xl md:text-5xl xl:text-6xl leading-tight text-primary-base mb-4">
+							<%- __('site.status-nodes.details.steps.step-4.title') %>
+						</h5>
+						<p
+							class="text-gray-600 text-lg md:text-16 xl:text-18 font-body font-normal leading-2 pt-0 md:pt-2">
+							<%- __('site.status-nodes.details.steps.step-4.content') %>
+						</p>
+						<div class="absolute bg-primary-base rounded-full"
+							style="top: 16px; left: 0; width: 16px; height: 16px"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-32 md:py-40 xl:py-56 bg-blue-gray-light">
+		<div class="max-w-screen-2xl mx-auto px-8 md:px-12 xl:px-48 text-center">
+			<h2 class="font-display text-4xl md:text-5xl xl:text-6xl leading-tight">
+				<%- __('site.status-nodes.requirements.title') %>
+			</h2>
+			<div class="grid md:grid-cols-3 gap-32 md:gap-12 mt-24 md:mt-40 xl:mt-48">
+				<div class="grid gap-16 md:gap-10 w-full justify-items-center px-4 xl:px-24"
+					style="height: fit-content;">
+					<div class="mx-auto w-32 h-32 xl:w-40 xl:h-40 relative z-0">
+						<span
+							class="absolute top-0 left-0 font-display text-72px md:text-88px xl:text-100px text-primary-base opacity-30"
+							style="font-weight: 800; line-height: 48px; z-index: -1; opacity: 0.3; transform: translate(-42px, -8px)">
+							<%- __('site.status-nodes.requirements.boxes.box-1.number') %>
+						</span>
+						<div class="w-full h-full bg-white shadow-lg p-4 md:p-8 rounded-3xl flex items-center"
+							style="border-radius: 8px">
+							<%- image_tag("/img/status-nodes/settings.png", {
+								srcset: '/img/status-nodes/settings@2x.png 2x' }) %>
+						</div>
+					</div>
+					<h4 class="font-display text-2xl xl:text-4xl">
+						<%- __('site.status-nodes.requirements.boxes.box-1.title') %>
+					</h4>
+				</div>
+				<div class="grid gap-16 md:gap-10 w-full justify-items-center px-4 xl:px-24"
+					style="height: fit-content;">
+					<div class="mx-auto w-32 h-32 xl:w-40 xl:h-40 relative z-0">
+						<span
+							class="absolute top-0 left-0 font-display text-72px md:text-88px xl:text-100px text-primary-base opacity-30"
+							style="font-weight: 800; line-height: 48px; z-index: -1; opacity: 0.3; transform: translate(-42px, -8px)">
+							<%- __('site.status-nodes.requirements.boxes.box-2.number') %>
+						</span>
+						<div class="w-full h-full bg-white shadow-lg p-4 md:p-8 rounded-3xl flex items-center"
+							style="border-radius: 8px">
+							<%- image_tag("/img/status-nodes/cloud.png", {
+								srcset: '/img/status-nodes/cloud@2x.png 2x' }) %>
+						</div>
+					</div>
+					<h4 class="font-display text-2xl xl:text-4xl">
+						<%- __('site.status-nodes.requirements.boxes.box-2.title') %>
+					</h4>
+				</div>
+				<div class="grid gap-16 md:gap-10 w-full justify-items-center px-4 xl:px-24"
+					style="height: fit-content;">
+					<div class="mx-auto w-32 h-32 xl:w-40 xl:h-40 relative z-0">
+						<span
+							class="absolute top-0 left-0 font-display text-72px md:text-88px xl:text-100px text-primary-base opacity-30"
+							style="font-weight: 800; line-height: 48px; z-index: -1; opacity: 0.3; transform: translate(-42px, -8px)">
+							<%- __('site.status-nodes.requirements.boxes.box-3.number') %>
+						</span>
+						<div class="w-full h-full bg-white shadow-lg p-4 md:p-8 rounded-3xl flex items-center"
+							style="border-radius: 8px">
+							<%- image_tag("/img/status-nodes/machine.png", {
+								srcset: '/img/status-nodes/machine@2x.png 2x' }) %>
+						</div>
+					</div>
+					<h4 class="font-display text-2xl xl:text-4xl">
+						<%- __('site.status-nodes.requirements.boxes.box-3.title') %>
+					</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-32 md:py-40 xl:py-56">
+		<div class="max-w-screen-2xl mx-auto px-8 md:px-12 xl:px-20">
+			<div
+				class="flex flex-col gap-10 md:gap-20 xl:gap-0 xl:flex-row justify-center text-white px-8 items-center py-32 md:py-40 xl:py-48 bg-primary-base">
+				<h3
+					class="font-display text-center md:text-left text-2xl md:text-4xl md:text-6xl leading-tight text-primary-200">
+					<%- __('site.status-nodes.join.title') %>
+						<br class="flex md:hidden" />
+						<a href="#" target="_blank"
+							class="text-white font-bold bg-primary-900 hover:bg-white hover:text-black transition-all duration-200 linear underline">
+							&#160;<%- __('site.status-nodes.join.status-nodes-link') %>
+						</a>
+				</h3>
+				<a href="#" target="_blank"
+					class="group col-start-2 col-end-2 flex justify-between xl:ml-32 border transition-all duration-200 linear font-special font-bold transition-all linear rounded py-4 px-5 inline-flex text-white border-black bg-black hover:bg-white hover:text-black"
+					style="min-width: 198px; width: fit-content;">
+					<%- __('site.status-nodes.phase.link-1') %>
+						<span
+							class="pr-4 group-hover:translate-x-1 transform transition-all my-auto duration-200 linear">
+							<svg width="6" height="13" viewBox="0 0 6 13" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="1" fill-rule="evenodd" clip-rule="evenodd"
+									d="M4.001 6.00098L0 12.001H2L6.001 6.00098L2 -2.38419e-05H0L4.001 6.00098Z"
+									fill="currentColor"></path>
+							</svg>
+						</span>
+				</a>
+			</div>
+		</div>
+	</section>
+</main>
