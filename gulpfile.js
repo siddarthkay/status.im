@@ -81,6 +81,7 @@ exports.genqr = genqr
 exports.server = server
 exports.index = index
 exports.employees = employees
+exports.nightlies = nightlies
 exports.devel = gulp.parallel(server, devel)
 exports.build = gulp.series(nightlies, gulp.parallel(genqr, content, exports.css, minify))
 exports.default = exports.build
