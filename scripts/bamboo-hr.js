@@ -16,7 +16,7 @@ const API_TOKEN = process.env.BAMBOO_API_TOKEN
 const API_URL = `https://api.bamboohr.com/api/gateway.php/${API_ORG}/v1`
 const PHOTO_URL = `https://${API_ORG}.bamboohr.com/employees/photos`
 const DEFAULT_FIELDS = [
-  'displayName', 'firstName', 'lastName', 'division', 'workEmail',
+  'firstName', 'division', 'workEmail',
   'customStatusPublicKey', 'customGitHubusername',
 ].join(',')
 
@@ -78,8 +78,11 @@ const saveEmployees = async (outFilePath) => {
   let data = await getEmployeesList()
   log(`Found active employees: ${data.employees.length}`)
 
+  /* Sort contents based on employee ID */
+  sorted_by_id = data.employees.sort((a,b) => a.id - b.id)
+
   let employees = []
-  for (let employee of data.employees) {
+  for (let employee of sorted_by_id) {
     if (SKIP_EMAILS.indexOf(employee.workEmail) > -1) {
       continue
     }

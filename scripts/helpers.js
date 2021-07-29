@@ -39,7 +39,7 @@ hexo.extend.helper.register('employees', function(type) {
       <a href="#"><img src="'+ employee['photoUrl'] +'" class="rounded-full w-24 h-24"></a> \
       <div class="transition-all duration-200 linear hover:z-10 flex group-hover:opacity-100 group-hover:visible absolute opacity-0 invisible -mt-24 rounded w-64 bg-white z-20 shadow p-8 flex flex-col items-center text-center w-24 h-24" style="width: 190px; height: 200px; top: 40px; left:-65px;">\
         <img src="'+ employee['photoUrl'] +'" class="rounded-full w-24 h-24"> \
-        <p class="mt-4 font-semibold font-special text-lg">'+ employee['displayName'] +'</p> \
+        <p class="mt-4 font-semibold font-special text-lg">'+ employee['firstName'] +'</p> \
         <ul class="flex items-center mt-8">\
           <li><a href="https://join.status.im/user/'+ employee['customStatusPublicKey'] +'" target="_blank"><img src="/img/icon-status-purple.svg"></a></li> \
           <li class="ml-6"><a href="https://github.com/'+ employee['customGitHubusername'] +'" target="_blank"><img src="/img/icon-github-purple.svg"></a></li> \
