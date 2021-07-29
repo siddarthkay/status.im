@@ -72,22 +72,5 @@ docs:
   - title: Audits
     path: audits/
 
-  - title: Join the team
-    path: our_team
-    children:
-      - title: Jobs at Status
-        path: jobs.html
-      - title: FAQs
-        path: faqs.html
-      - title: Our Principles
-        path: our_principles.html
-      - title: Applying
-        path: applying_to_status.html
-      - title: Applicant Privacy
-        path: applicant_privacy.html
-      - title: Perks & Benefits
-        path: perks_benefits.html
-      - title: Life At Status
-        path: life_status.html
-      - title: The Future
-        path: the_future.html
+  - title: Jobs at Status
+    path: our_team/jobs.html
