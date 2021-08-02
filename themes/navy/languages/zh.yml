@@ -1090,3 +1090,57 @@ site:
     protection:
       title: 保护您过去和未来的信息
       description: Status利用修改后的双棘轮算法版本来实现完美的前向保密性。即使您当前的加密密钥受到某种损害，也会保护您过去和将来的消息。
+  status-nodes:
+    intro:
+      title: '介绍 Status 节点计划的第 0 阶段'
+      description-1: '运行 Status 节点。去中心化的世界。赚取 SNT。'
+      description-2: '申请加入我们的专项奖励项目，即可赚取 100 美元的 SNT。'
+      description-3: '运行 Status 节点是完全免费的！'
+      link-1: 申请并获得奖励
+    about:
+      title: '什么是 Status 节点'
+      description-1: 'Status 节点支持去中心化的私人通讯并且抗审查。'
+      description-2: 'Status 应用程序中的消息使用 Waku 消息传递协议，在节点之间中继以到达目的地。这些节点形成了一个分布式网络，因此在政府行为、隐私侵犯或审查方面不存在单点漏洞。网络越大，Status 网络就越可靠（和去中心化）。'
+      link-1: 了解更多
+    phase:
+      title: '阶段 0 仅仅是开始'
+      link-1: 请在此处报名
+      boxes:
+        box-1:
+          title: '阶段 0'
+          text: '本阶段旨在改进 Status 网络并使之更加去中心化。完成该计划后，每位参与者将获得 100 美元的 SNT 奖励。'
+        box-2:
+          title: 报名处
+          text: "这个阶段的奖励将单独管理，所以\L本计划的人数上限为 100 人(但是依然欢迎更多的人运行 Status 节点，我们在未来可能有更多的奖励\L名额)。"
+        box-3:
+          title: 长期愿景
+          text: 'Status 节点最终将包含加密货币激励机制，以奖励网络参与者。早期阶段，将发送 SNT 奖励给参与者。'
+    details:
+      title: '阶段 0 详细信息 '
+      steps:
+        step-1:
+          title: '步骤 1'
+        step-2:
+          title: '步骤 2'
+          content-1: '启动 Status 节点。'
+          content-2: 'a) 加入节点运行者电话会议；或者'
+          content-3: 'b) 观看关于如何设置节点的录制视频教程;和/或'
+          content-4: 'c) 加入#status-node-runners 频道以获得帮助'
+        step-3:
+          title: '步骤 3'
+          content: '请保持 Status 节点运行 3 个月'
+        step-4:
+          title: '步骤 4'
+          content: '项目完成后，Status 将给您发送价值 100 美元的 SNT 作为奖励'
+    requirements:
+      title: 项目要求
+      boxes:
+        box-1:
+          title: '搭建 Status 节点是免费的。'
+          number: '1'
+        box-2:
+          title: '运行 Linux 或 MacOS 的电脑。'
+          number: '2'
+        box-3:
+          title: '可以利用 AWS 或 Azure 等云提供商。'
+          number: '3'

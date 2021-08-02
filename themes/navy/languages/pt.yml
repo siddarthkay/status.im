@@ -636,7 +636,7 @@ site:
     status:
       title: Status
       jobs: Empregos
-      white-paper: 'Papel branco'
+      white-paper: 'White Paper'
       media-kit: 'Kit de mídia'
       analytics: 'Estatísticas do Site'
       open_positions: 'Vagas Abertas'
@@ -658,6 +658,7 @@ site:
       description: 'Status Research & Development GmbH, Baarerstrasse 10, Zug, Suíça'
     site-analytics: 'Estatísticas do Site'
     messari: 'Transparência Messari Verificada'
+    terms-of-use: 'Termos de Uso'
   landing-page-v1:
     intro:
       private-messaging:
@@ -688,13 +689,13 @@ site:
   keycard-integration:
     intro:
       title: 'Adicione segurança de hardware à sua experiência na Status'
-      description: 'Proteja seus ativos e contas com Keycard - a carteira de hardware de "armazenamento a frio" (cold storage) com uma experiência conveniente e sem contato. Apenas para Android.'
-      button: 'Obtenha um Keycard 29 €'
+      description: 'Proteja seus ativos e contas com o Keycard - a hardware wallet de "armazenamento frio" (cold storage) com uma experiência conveniente e contactless.'
+      button: 'Obtenha um Keycard 24.9€'
     about:
       title: 'O que é o Keycard?'
       description: 'Keycard é uma carteira de hardware de armazenamento projetada para manter suas chaves privadas totalmente offline para maior segurança sobre seus fundos. <br> <br> Desenvolvido com tecnologia NFC e um design semelhante a um cartão de crédito para uma experiência "sem contato" perfeita. Construído com uma API aberta para integração com crypto wallets, DApps e hardware de terceiros.'
       button-1: 'Saiba Mais'
-      button-2: 'Obtenha um Keycard 29 €'
+      button-2: 'Obtenha um Keycard 24.9€'
     secure:
       title: 'Protegendo o app da Status com Keycard'
       security:
@@ -715,8 +716,8 @@ site:
         description: 'Construído com tecnologia NFC sem contato e um design elegante e familiar, o Keycard oferece a conveniência de um cartão de crédito com a segurança de uma carteira de hardware.'
       box-3:
         title: 'Segurança Acessível'
-        description: 'Por apenas 29 €, o Keycard oferece fortes garantias de segurança de hardware, sem o preço caro de marca.'
-        link: 'Obtenha um Keycard 29 €'
+        description: 'Por apenas 24.9 €, o Keycard oferece fortes garantias de segurança de hardware, sem o preço caro de outras carteiras.'
+        link: 'Obtenha um Keycard 24.9€'
     faq:
       title: 'Você tem perguntas?'
       button: 'Saiba Mais'
@@ -738,8 +739,8 @@ site:
       title: 'Você tem perguntas?'
       button: 'Visite FAQ'
   faq:
-    title: F.A.Q
-    description: 'Perguntas frequentes <br> Não consegue encontrar o que está procurando? Verifique ou pergunte no fórum da comunidade <a href=''https://discuss.status.im/'' target=''_blank''> aqui </a>'
+    title: FAQ
+    description: 'Perguntas Frequentes <br> Não está encontrando o que procura? Verifique ou pergunte no fórum da comunidade <a href=''https://discuss.status.im/'' target=''_blank''> aqui </a>'
     general:
       title: Geral
       q1:
@@ -803,7 +804,7 @@ site:
         answer: 'O endereço da sua carteira tem 42 caracteres e começa com 0x. É uma identidade na cadeia para a sua conta Ethereum. Se você tem várias contas, você tem vários endereços. Você pode encontrar o endereço da sua carteira indo em Carteira > Cartão de conta > Receber ou tocando no ícone de compartilhamento no cartão da conta. <br><br><i>Note que embora pareça semelhante, o endereço da sua carteira não é o mesmo que a sua chave de bate-papo. Você pode encontrar sua chave de bate-papo em Perfil > Ícone de compartilhamento.</i>'
       q4:
         question: 'Quantas contas posso criar na Status?'
-        answer: 'Você pode criar quantas contas quiser. Vá para Carteira > Adicionar conta. As contas adicionadas desta forma podem ser recuperadas com sua frase-semente, junto com seu par de chave mestra, se você perder o acesso à sua conta. <br> <br> Você também pode criar mais pares de chaves mestras indo para a tela inicial Suas chaves > Gerar chaves, ou Acessar chaves existentes se desejar importar chaves de outra carteira, ou criar um conjunto de identidades completamente novo.'
+        answer: 'Você pode criar quantas contas quiser. Vá para Carteira > Adicionar conta. As contas adicionadas desta forma podem ser recuperadas com sua frase-semente, com seu par de chave mestra, caso você perca o acesso à sua conta. <br> <br> Você também pode criar mais pares de chaves mestras indo para a tela inicial Suas chaves > Gerar chaves, ou Acessar chaves existentes se desejar importar chaves de outra carteira, ou criar um conjunto de identidades completamente novo.'
     profile-and-settings:
       title: 'Perfil e Configurações'
       q1:
@@ -921,16 +922,16 @@ site:
       title: 'Keycard Geral'
       q1:
         question: 'Para que serve o Keycard?'
-        answer: 'Keycard é uma carteira de hardware que você pode usar com o aplicativo da Status. <br> <br> Ele fornece um nível maior de segurança e de garantia de propriedade para as chaves privadas dos usuários da Status. O Keycard é um armazenamento frio para seus ativos que você precisa tocar em seu telefone ao fazer uma transação (junto com a inserção de uma senha de 6 dígitos). <br> <br> E o Keycard pode ser usado como um 2FA para proteger o acesso ao app da Status (ou seja, o uso do Chat). Para desbloquear suas chaves e usar o aplicativo, você precisará tocar no cartão e inserir sua senha de 6 dígitos.'
+        answer: 'Keycard é uma carteira de hardware que você pode usar com o aplicativo da Status. <br> <br> Ele fornece um nível maior de segurança e de garantia de propriedade para as chaves privadas dos usuários da Status. O Keycard é um armazenamento frio para seus ativos que você precisa tocar em seu telefone ao fazer uma transação (junto com a inserção de uma senha de 6 dígitos). <br> <br> E o Keycard pode ser usado como um 2FA para proteger o acesso ao app da Status. Para logar no aplicativo, você precisará tocar no cartão e inserir sua senha de 6 dígitos.'
       q2:
         question: 'O Keycard está disponível com a Status no Android e iOS?'
-        answer: 'O Keycard está atualmente disponível apenas no Android para uso com o app da  Status. A equipe do Keycard está atualmente trabalhando na integração com o iOS.'
+        answer: 'O Keycard é integrado como uma carteira de hardware com a Status no Android e no iOS (desde a versão v1.12 da Status).'
       q3:
         question: 'Quanto custa o Keycard?'
-        answer: 'O Keycard custa 29 € no varejo e pode ser adquirido aqui.'
+        answer: 'O Keycard custa 24,9 € no varejo e pode ser adquirido em https://get.keycard.tech/.'
       q4:
         question: 'O Keycard está integrado com alguma outra carteira?'
-        answer: 'A Status é a primeira integração de produção com Keycard. No entanto, os desenvolvedores podem integrar o Keycard com seus produtos através da API Open Source Keycard disponível aqui.'
+        answer: 'A Status é a primeira integração oficial do Keycard. No entanto, os desenvolvedores podem integrar o Keycard com seus produtos através da API Open Source Keycard disponível aqui - https://keycard.tech/docs/'
       q5:
         question: 'Eu preciso de um Keycard para usar o app da Status?'
         answer: 'Não, você não precisa de um Keycard para usar o app da Status. A carteira da Status não tem custódia e é auditada por empresas de segurança terceirizadas. É seguro por si só, mas com o Keycard, você está adicionando um nível ainda maior de segurança de hardware.'
@@ -939,49 +940,58 @@ site:
         answer: 'Por enquanto, o Keycard pode ser usado pelo usuário da Status apenas como carteira de hardware. Faz parte do nosso planejamento introduzir pagamentos físicos com Keycard como parte de uma rede de pagamento aberta, inclusiva e sem a necessidade de permissão, onde os terminais de pagamento são qualquer celular rodando o app da Status.'
       q7:
         question: 'Como o Keycard difere de outras carteiras de hardware como Ledger ou Trezor?'
-        answer: 'O Keycard é construído desde o início como uma carteira de hardware amigável para dispositivos móveis. Ele incorpora a tecnologia sem contato NFC para se comunicar com seu telefone celular e assinar a transação com um toque no cartão e inserindo sua senha de 6 dígitos. Além disso, seu formato é muito conveniente para transportar. <br> <br> Keycard não possui tela nem teclado, o que o torna econômico. O nível de segurança do Keycard é semelhante a um Ledger quando usado com aplicativos confiáveis como a Status.'
+        answer: 'O Keycard é construído desde o início como uma carteira de hardware móvel e amigável. Ele incorpora a tecnologia sem contato NFC para se comunicar com seu telefone celular e assinar a transação aproximando o cartão e digitando o código PIN do seu Keycard. Além disso, formato é muito conveniente de transportar. O Keycard não tem tela ou teclado, o que o torna econômico. O nível de segurança do Keycard é semelhante ao de um Ledger quando usado com aplicações confiáveis como a Status.'
+      q8:
+        question: 'Quais ativos o Keycard suporta?'
+        answer: 'O aplicativo Status pode ser usado com o Keycard e suporta ativos Ethereum (eth, erc-20, nfts). O próprio Keycard suporta assinaturas ecdsa secp256k1, portanto, se você é um desenvolvedor de carteira, pode integrar o Keycard com qualquer outra blockchain que use assinaturas ecdsa secp256k1 incluindo, é claro, bitcoin.'
     keycard-security:
       title: 'Segurança do Keycard'
       q1:
-        question: 'O que acontece se eu perder o meu Keycard?'
-        answer: 'Se você perder o seu Keycard, ninguém poderá usá-lo sem a sua senha de 6 dígitos. Para recuperar seus fundos, você precisará usar sua frase semente de 12 palavras para recuperar sua conta. <br><br>A recuperação social está sendo trabalhada e será implementada em algum momento no futuro. Isto lhe permitirá coordenar com os seus colegas para recuperar a sua conta caso se perca.'
+        question: 'Meus fundos estão seguros se eu perder meu Keycard?'
+        answer: 'Se você perdeu seu Keycard, seus fundos estão seguros. Para usar seu Keycard em um telefone que você não possui (e, portanto, não emparelhou o Keycard), é necessário seu código de emparelhamento e sua senha de 6 dígitos para acessar seus fundos. Você pode recuperar seus fundos com Status ou qualquer outra carteira usando seu mnemônico.'
       q2:
         question: 'Quão seguro é o Keycard?'
-        answer: 'A segurança do cartão depende do software de miniaplicativo que é usado no cartão. Este miniaplicativo é de código aberto (link) e foi auditado por uma empresa de auditoria de segurança terceirizada. <br> <br> Do ponto de vista do hardware, o Keycard é um elemento S.E. seguro com um alto nível de proteção de hardware. Ele passa no teste formal CC EAL5 + para sua avaliação de segurança.'
+        answer: 'A segurança do cartão depende do software de miniaplicativo que é usado no cartão. Este miniaplicativo é de código aberto (link) e foi auditado por uma empresa de auditoria de segurança terceirizada. Do ponto de vista do hardware, o Keycard é um elemento S.E. seguro com um alto nível de proteção de hardware. Ele passa no teste formal CC EAL5 + para sua avaliação de segurança.'
     keycard-setup:
       title: 'Configuração do Keycard'
       q1:
         question: 'Como faço para utilizar o app da Status com o Keycard?'
         answer: 'Se você for um novo usuário da Status, então você só precisa baixar o app da Status e seguir nossos fluxos de integração, você terá que escolher se deseja gerar uma nova conta ou importar uma (ou seja, `Chaves de acesso`) usando uma frase inicial, e em seguida, optar por armazená-lo em seu Keycard. A partir daí, você será solicitado a tocar no seu Keycard e inserir a senha de 6 dígitos sempre que quiser desbloquear as chaves e usar o app da Status ou assinar uma transação.'
       q2:
-        question: 'O que é a senha de 6 dígitos? '
+        question: 'O que é a senha de 6 dígitos (PIN)? '
         answer: 'Você definirá sua senha de 6 dígitos durante o primeiro acesso. Você precisará se lembrar dessa senha, pois ela será solicitada sempre que você tocar no seu cartão no telefone.'
       q3:
         question: 'O que são código de emparelhamento e código PUK?'
-        answer: 'Quando estiver utilizando o app da Status e o Keycard, você receberá um código de emparelhamento e um código PUK. Você tem que anotar estes dois dados com muito cuidado, pois eles nunca mais serão apresentados a você. <br><br>O seu código de emparelhamento será necessário quando você quiser usar o seu Keycard com outro telefone ou outro aplicativo que não o da Status. <br><br>O seu código PUK será necessário se você esquecer sua senha de 6 dígitos, para redefini-la e alterá-la.'
+        answer: 'Quando estiver utilizando o app da Status e o Keycard, você receberá um código de emparelhamento e um código PUK. Você tem que anotar estes dois dados com muito cuidado, pois eles nunca mais serão apresentados a você. O seu código de emparelhamento será necessário quando você quiser usar o seu Keycard com outro telefone ou outro aplicativo que não o da Status. O seu código PUK será necessário se você esquecer sua senha de 6 dígitos, para redefini-la e alterá-la.'
       q4:
-        question: 'Qual é a frase-semente?'
-        answer: 'Veja Perfil e Configurações. Se você perder seu Keycard, seu código PUK ou o código de pareamento junto com seu telefone, é sua única solução para acessar seus fundos.'
+        question: 'O que é uma frase-semente?'
+        answer: 'As contas da Status são geradas com um segredo mestre que pode ser representado com uma lista de palavras. Ao gerar uma nova na Status, você verá esta lista de palavras. É crucial que você anote essa lista de palavras em algum lugar seguro. Se você perder seu Keycard, seu PUK ou código de emparelhamento junto com seu telefone, é sua única solução para acessar seus fundos.'
       q5:
-        question: 'Já utilizo uma conta em Status e desejo utilizá-la com meu Keycard, como devo proceder?'
-        answer: 'Você precisará desinstalar o Status e iniciar uma nova instalação. Ao fazer a configuração inicial do app, você precisará inserir sua frase-semente (`Chaves de acesso` > ` Inserir frase-semente`) e armazená-la no Keycard. Você irá recuperar sua conta e todas as interações com suas chaves privadas serão agora protegidas pelo Keycard.'
+        question: 'Já possuo uma conta na Status e desejo utilizá-la com meu Keycard, como devo proceder?'
+        answer: 'No Status v1.11, saia de sua conta e selecione sua conta na lista, clique em ''...'', selecione ''Gerenciar chaves e armazenamento'' e ''Mover arquivo de armazenamento de chave'', insira sua semente e selecione Keycard. A partir daí, você será orientado a configurar seu novo cartão-chave e sua conta será migrada para ele.'
+      q6:
+        question: 'Posso reinstalar o miniaplicativo do Keycard (somente usuários avançados)?'
+        answer: 'Se você é um usuário avançado ou desenvolvedor, pode querer reinstalar o miniaplicativo Javacard em seu Keycard. Isso colocará seu cartão de volta no mesmo estado que quando você o comprou pela primeira vez (redefinição de fábrica). Você pode querer fazer isso se tiver perdido o PIN e o PUK ou se os slots(espaços) de emparelhamento do cartão estiverem cheios. Esta operação apagará tudo nesse cartão. Faça isso por sua própria conta e risco e certifique-se de ter seu mnemônico de 12 palavras se tiver uma conta no cartão. Existem várias maneiras de fazer isso. A melhor maneira é ter um leitor com contato USB (não NFC) e um computador desktop. Nesse caso, você pode usar nossa ferramenta CLI (https://github.com/status-im/keycard-cli/releases) ou uma ferramenta GUI de terceiros (código aberto) (https://github.com/choppu/keycard -desktop / releases) para reinstalar o miniaplicativo. Se você tiver apenas um smartphone Android com NFC, pode usar o Keycard Connect (https://github.com/status-im/keycard-connect/releases) para fazer isso. No entanto, esta é uma operação perigosa e pode destruir sua placa se a conexão for perdida durante a reinstalação. Certifique-se de que o cartão está tocando firmemente o telefone e não o desconecte até que a mensagem “Toque no seu cartão” não desapareça. Em placas JCOP4 mais novas, isso leva menos de um minuto, mas em placas JCOP3 mais lentas pode levar vários minutos. O miniaplicativo em si, distribuído como um arquivo de extensão .cap padrão do Javacard, pode ser encontrado aqui https://github.com/status-im/status-keycard/releases. Você precisará disso independentemente do método usado para reinstalar.'
     keycard-other:
       title: 'Outras perguntas sobre Keycard'
       q1:
         question: 'Eu possuo um Keycard, posso usá-lo com vários telefones, ou vários aplicativos simultaneamente? '
         answer: 'Sim, você pode. O seu Keycard possui um código de emparelhamento que pode permitir a configuração de 5 canais seguros simultâneos. '
       q2:
-        question: 'Eu perdi minha senha de 6 dígitos, o que devo fazer?'
+        question: 'Eu perdi minha senha de 6 dígitos (PIN), o que devo fazer?'
         answer: 'Se você fizer mais de 3 tentativas erradas de sua senha, você será solicitado a digitar seu código PUK para redefinir e alterar sua senha. '
       q3:
         question: 'Eu perdi o meu código PUK, o que devo fazer?'
-        answer: 'Se você perdeu seu código PUK e sua senha de 6 dígitos, você se encontra em uma situação muito ruim porque você não poderá usar o seu Keycard. Para recuperar seus fundos, você deve usar sua frase-semente e recuperá-la (ou seja, `Chaves de acesso`) novamente na Status ou em outra carteira. Se você está familiarizado com a CLI e perdeu sua senha e código PUK, a equipe de desenvolvimento do Keycard pode ajudá-lo a redefinir seu Keycard, por favor acesse <a href=''https://join.status.im/chat/public/status-keycard'' target=''_blank''> https://join.status.im/chat/public/status-keycard </a>'
+        answer: 'Se você perdeu seu código PUK e sua senha de 6 dígitos (PIN), você se encontra em uma situação muito ruim porque você não poderá usar o seu Keycard. Para recuperar seus fundos, você deve usar sua frase-semente e recuperá-la (ou seja, `Chaves de acesso`) novamente na Status ou em outra carteira. Se você é um desenvolvedor e perdeu sua senha e código PUK, a equipe de desenvolvimento do Keycard pode ajudá-lo a redefinir seu Keycard, por favor acesse <a href=''https://join.status.im/chat/public/status-keycard'' target=''_blank''> https://join.status.im/chat/public/status-keycard </a>'
       q4:
         question: 'Perdi meu código de emparelhamento, o que devo fazer?'
         answer: 'Se você perdeu o código de emparelhamento, verifique se você anotou sua frase inicial. Sem seu código de emparelhamento e sua frase inicial, você corre o risco de perder o acesso aos seus fundos se você perder o seu celular.'
       q5:
-        question: 'Eu perdi a minha frase inicial, o que devo fazer?'
-        answer: 'Se você perdeu sua frase inicial para sua conta atual, você deve agir o quanto antes, porque você corre o risco de perder todos os seus fundos em algum momento se perder seu Keycard ou se esquecer do código PUK/emparelhamento. Você deve criar imediatamente uma nova carteira com uma nova frase inicial e transferir seus ativos da sua conta atual para ela.'
+        question: 'Os slots do meu Keycard estão cheios, o que devo fazer?'
+        answer: 'Se você configurou seu Keycard com mais de 5 dispositivos diferentes, então todos os 5 slots estão cheios. Por enquanto, não há opção no app da Status para liberar um desses slots. Se você precisar liberar um, precisará reinstalar o miniaplicativo (consulte a FAQ relacionada. Esta é uma operação delicada). Como sugestão, assim que você receber seu Keycard (ou restaurá-lo), emparelhe-o com o Keycard Connect (https://github.com/status-im/keycard-connect/releases). Se você fizer isso, poderá desemparelhar outros clientes sem ter que reinstalar o miniaplicativo. Se você está desenvolvendo com o Keycard, você pode encontrar a documentação do comando de desemparelhamento aqui https://keycard.tech/docs/apdu/unpair.html'
+      q6:
+        question: 'Perdi minha frase mnemônica, o que devo fazer?'
+        answer: 'Se você perdeu sua frase mnemônica para sua conta atual, você tem que agir porque você corre o risco de perder todos os seus fundos, em algum momento se perder seu Keycard ou esquecer seu PUK / código de emparelhamento. Você deve criar imediatamente uma nova carteira com uma nova frase mnemônica e transferir seus ativos de sua conta atual para ela.'
     banner:
       title: 'Tem perguntas? Confira o FAQ'
       button: 'Perguntas frequentes'
@@ -1035,6 +1045,9 @@ site:
   account-creation:
     intro:
       title: 'Criação de conta pseudo-anônima'
+      description-1: 'Sem número de telefone'
+      description-2: 'Sem endereço de e-mail'
+      description-3: 'Sem conta bancária'
     usernames:
       title: 'Privacidade e nomes de usuário padrão de três palavras'
       description: 'Ao criar uma conta, um processo de randomização seleciona três palavras — adjetivo, adjetivo, animal. Este se torna seu nome de usuário padrão na Status e resulta em verdadeiro pseudo-anonimato.'
@@ -1046,7 +1059,7 @@ site:
     status:
       title: 'Nomes de usuário (stateofus) com ENS'
       description: 'ENS significa Ethereum Name Service (Serviço de Nomes Ethereum) e permite que endereços Ethereum sejam substituídos por nomes personalizados baseados em texto. Qualquer pessoa pode registrar um nome de usuário stateofus.eth com 10 SNT a partir da aba Perfil. <br> <br> É importante notar que quando você registra um nome ENS com um determinado endereço de carteira, esse endereço agora é associado ao nome de usuário, reduzindo a privacidade dessa conta.'
-      button: 'Registrar um nome de usuário Status'
+      button: 'Registrar um nome de usuário State of Us'
     keycard:
       title: 'Proteja sua conta com um Keycard'
       description: 'Adicione autenticação de dois fatores offline e forçada por hardware à sua conta Status com Keycard. Requer o toque de um cartão + senha para maior segurança em sua conta.'
@@ -1090,3 +1103,62 @@ site:
     protection:
       title: 'Proteja suas mensagens passadas e futuras'
       description: 'Status utiliza uma versão modificada do algoritmo de catraca dupla (double ratchet) para sigilo de encaminhamento perfeito. Proteja suas mensagens passadas e futuras, mesmo se suas chaves de criptografia atuais estiverem de alguma forma comprometidas.'
+  status-nodes:
+    intro:
+      title: 'Apresentando a Fase 0 do Programa de Nós Status'
+      description-1: 'Execute um Nó Status. Descentralize o mundo. Ganhe SNT.'
+      description-2: 'Inscreva-se em nosso programa de incentivos especiais para ganhar $100 em SNT.'
+      description-3: 'Executar um nó Status é 100 % grátis!'
+      link-1: 'Inscreva-se e Ganhe'
+    about:
+      title: 'O que é um Nó Status?'
+      description-1: 'Os nós Status suportam comunicação privada descentralizada e permitem a resistência à censura.'
+      description-2: 'As mensagens no aplicativo Status são retransmitidas entre os nós para chegar ao seu destino, usando o protocolo de mensagens Waku. Esses nós formam uma rede distribuída, portanto, não há um único ponto de vulnerabilidade à ação governamental, violação de privacidade ou censura. Quanto maior a rede, mais confiável (e descentralizada) a Rede Status se torna.'
+      link-1: 'Saiba mais'
+    phase:
+      title: 'Fase 0 é Apenas o Começo'
+      link-1: 'Inscreva-se aqui'
+      boxes:
+        box-1:
+          title: 'Etapa 0'
+          text: 'Esta fase foi projetada para melhorar e fornecer ainda mais descentralização para a Rede Status. Cada participante será recompensado com $100 em SNT após a conclusão do programa.'
+        box-2:
+          title: 'Aplicação Necessária'
+          text: 'As recompensas para esta fase serão gerenciadas individualmente, portanto, o programa será limitado a 100 pessoas (mas qualquer pessoa é bem-vinda para executar um nó e podemos ter mais recompensas no futuro).'
+        box-3:
+          title: 'Visão de Longo Prazo'
+          text: 'Os nós Status eventualmente incluirão incentivos de criptomoedas para recompensar a participação na rede. Como parte dessa fase inicial, as recompensas SNT serão enviadas aos participantes.'
+    details:
+      title: 'Detalhes do Programa de Fase 0'
+      steps:
+        step-1:
+          title: 'Etapa 1'
+          content: 'Inscreva-se para se tornar um Status Node Runner até Data XXX [aqui] (as primeiras 100 pessoas a se inscreverem serão aceitas.)'
+        step-2:
+          title: 'Etapa 2'
+          content-1: 'Inicie seu Nó Status.'
+          content-2: 'a) Participe da chamada de introdução do Node Runner; ou'
+          content-3: 'b) assista ao tutorial gravado sobre como configurar seu nó; e/ou'
+          content-4: 'c) Participe do canal #status-node-runners para obter suporte'
+        step-3:
+          title: 'Etapa 3'
+          content: 'Mantenha seu Nó Status por 3 meses (inserir datas)'
+        step-4:
+          title: 'Etapa 4'
+          content: 'Após a conclusão do programa, a Status enviará a você $100 SNT como recompensa'
+    requirements:
+      title: 'Requisitos do Programa'
+      boxes:
+        box-1:
+          title: 'A configuração de um Nó Status é gratuita.'
+          number: '1'
+        box-2:
+          title: 'Uma máquina rodando Linux ou MacOS.'
+          number: '2'
+        box-3:
+          title: 'Pode utilizar provedores na nuvem, como AWS ou Azure.'
+          number: '3'
+    join:
+      title: Participar
+      status-nodes-link: '# status-node-runners'
+      link: Inscrever-se
