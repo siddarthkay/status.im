@@ -215,7 +215,7 @@ site:
       steps:
         step-1:
           title: "Step 1"
-          content: "Apply to become a Status Node Runner by XXX Date [here] (The first 100 people to apply will be accepted.)"
+          content: "Apply by Thursday August 12, 2021 (The first 100 people to apply will be accepted)."
         step-2:
           title: "Step 2"
           content-1: "Launch your status node."
@@ -224,7 +224,7 @@ site:
           content-4: "c) Join the #status-node-runners channel for support"
         step-3:
           title: "Step 3"
-          content: "Maintain your Status Node for 3 months (insert dates)"
+          content: "Maintain your Status Node for 3 months"
         step-4:
           title: "Step 4"
           content: "Upon completion of the program, Status will send you $100 SNT as a reward"

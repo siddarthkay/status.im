@@ -1084,3 +1084,57 @@ site:
     protection:
       title: 'Protegé Tus Mensajes Pasados y Futuros'
       description: 'Status aprovecha una versión modificada del algoritmo de doble trinquete para lograr un perfecto secreto hacia adelante. Protege tus mensajes pasados y futuros, incluso si tus claves de encriptación están comprometidas de alguna manera.'
+  status-nodes:
+    intro:
+      title: 'Presentación de la fase 0 del programa de nodos de Status (Status Nodes)'
+      description-1: 'Ejecuta un Status Node. Descentraliza el mundo. Gana SNT.'
+      description-2: 'Registrate en nuestro programa de incentivos especiales para poder ganar $100 USD en SNT.'
+      description-3: '¡Ejecutar un nodo de Status es 100% gratis!'
+      link-1: 'Regístrate y gana'
+    about:
+      title: '¿Qué es un Status Node?'
+      description-1: 'Los nodos Status incentivan la descentralización, la comunicación privada y habilitan la resistencia a la censura.'
+      description-2: 'Los mensajes en la app Status se transmiten entre los nodos para llegar a su destino, utilizando el protocolo de mensajería Waku. Estos nodos forman una red distribuida, por lo que no hay un solo punto de vulnerabilidad a la acción gubernamental, violación de la privacidad o censura. Cuanto más grande es la red, más confiable (y descentralizada) se vuelve la Red de Status.'
+      link-1: 'Saber más'
+    phase:
+      title: 'La fase 0 es sólo el comienzo'
+      link-1: 'Regístrate aquí'
+      boxes:
+        box-1:
+          title: 'Fase 0'
+          text: 'Esta fase está diseñada para mejorar y descentralizar aún más la Red de Status. Cada participante será recompensado con $100 USD en SNT al finalizar el programa.'
+        box-2:
+          title: 'Registro Requerido'
+          text: 'Las recompensas para esta fase se gestionarán individualmente, por lo que el programa se limitará a 100 personas (pero cualquier persona es bienvenida a ejecutar un nodo, y es posible que tengamos más recompensas en el futuro).'
+        box-3:
+          title: 'Visión a largo plazo'
+          text: 'Los nodos de Status eventualmente incluirán incentivos criptográficos para recompensar la participación en la red. Como parte de esta fase inicial, las recompensas SNT se enviarán a los participantes.'
+    details:
+      title: 'Fase 0 Detalles del Programa'
+      steps:
+        step-1:
+          title: 'Paso 1'
+        step-2:
+          title: 'Paso 2'
+          content-1: 'Inicia tu Status Node'
+          content-2: 'a) Únete a la llamada de introducción del Node Runner; ó'
+          content-3: 'b) mira el tutorial grabado sobre cómo configurar tu nodo; y/ o'
+          content-4: 'c) Únete al canal #status-node-runners para recibir ayuda'
+        step-3:
+          title: 'Paso 3'
+          content: 'Conserva tu Status Node durante 3 meses'
+        step-4:
+          title: 'Paso 4'
+          content: 'Al finalizar el programa, Status le enviará $100 USD en SNT como recompensa'
+    requirements:
+      title: 'Requerimientos del Programa'
+      boxes:
+        box-1:
+          title: 'Configurar un Status Node es gratis.'
+          number: '1'
+        box-2:
+          title: 'Una máquina que ejecuta Linux ó MacOS'
+          number: '2'
+        box-3:
+          title: 'Puedes utilizar proveedores de la nube como AWS o Azure.'
+          number: '3'
