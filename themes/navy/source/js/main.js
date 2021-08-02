@@ -207,10 +207,6 @@ $(document).ready(function($) {
     }, 300);
   });
 
-  if (window.location.href.split("jobs.html?").length === 2) {
-    $('#jobs-description').css("display", "none")
-  }
-
   if ($('.js-announcement').length) {
     var ghostContentKey = '10e7f8c1f793d2945ea1177076';
     $.ajax({
@@ -506,10 +502,6 @@ $(document).ready(function($) {
     $('.js-editor-content h1, .js-editor-content h2, .js-editor-content h3').each(function (index, element) {
       var id = $(this).attr('id');
       var title = $(this).text();
-      if (title === 'Jobs at Status') {
-        $('.js-right-sub-navigation').css("display", "none");
-        return false;
-      }
       $('.js-right-sub-navigation ul').append('<li class="mt-8 hover:text-primary-base transition-all duration-200 linear text-lg li-'+ $(this)[0].nodeName.toLowerCase() +'"><a href="#'+ id +'" class="text-gray-500 antialiased">' + title + '</a></li>');
     });
     $('.js-right-sub-navigation').stick_in_parent({
