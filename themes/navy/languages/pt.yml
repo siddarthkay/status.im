@@ -1108,7 +1108,7 @@ site:
       title: 'Apresentando a Fase 0 do Programa de Nós Status'
       description-1: 'Execute um Nó Status. Descentralize o mundo. Ganhe SNT.'
       description-2: 'Inscreva-se em nosso programa de incentivos especiais para ganhar $100 em SNT.'
-      description-3: 'Executar um nó Status é 100 % grátis!'
+      description-3: 'Executar um nó Status é 100 %% grátis!'
       link-1: 'Inscreva-se e Ganhe'
     about:
       title: 'O que é um Nó Status?'
@@ -1133,7 +1133,7 @@ site:
       steps:
         step-1:
           title: 'Etapa 1'
-          content: 'Inscreva-se para se tornar um Status Node Runner até Data XXX [aqui] (as primeiras 100 pessoas a se inscreverem serão aceitas.)'
+          content: 'Inscreva-se até Quinta 12 de Agosto de 2021 (As primeiras 100 pessoas serão aceitas).'
         step-2:
           title: 'Etapa 2'
           content-1: 'Inicie seu Nó Status.'
@@ -1159,6 +1159,6 @@ site:
           title: 'Pode utilizar provedores na nuvem, como AWS ou Azure.'
           number: '3'
     join:
-      title: Participar
-      status-nodes-link: '# status-node-runners'
+      title: 'Entre no chat'
+      status-nodes-link: '#status-node-runners'
       link: Inscrever-se

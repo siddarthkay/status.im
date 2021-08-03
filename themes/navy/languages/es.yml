@@ -1089,7 +1089,7 @@ site:
       title: 'Presentación de la fase 0 del programa de nodos de Status (Status Nodes)'
       description-1: 'Ejecuta un Status Node. Descentraliza el mundo. Gana SNT.'
       description-2: 'Registrate en nuestro programa de incentivos especiales para poder ganar $100 USD en SNT.'
-      description-3: '¡Ejecutar un nodo de Status es 100% gratis!'
+      description-3: '¡Ejecutar un nodo de Status es 100%% gratis!'
       link-1: 'Regístrate y gana'
     about:
       title: '¿Qué es un Status Node?'
@@ -1138,3 +1138,5 @@ site:
         box-3:
           title: 'Puedes utilizar proveedores de la nube como AWS o Azure.'
           number: '3'
+    join:
+      link: 'Regístrate aquí'
