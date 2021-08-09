@@ -229,6 +229,36 @@ body {
   }
 }
 
+.status-node-table table {
+  width: 100%;
+}
+
+.status-node-table td {
+  border-width: 1px;
+  min-width: 170px;
+  padding: 15px;
+  vertical-align: top;
+  word-break: break-all;
+}
+
+td:nth-child(1) {  
+  background-color: #EAECEF;
+}
+
+@media (max-width: 500px) {
+  .status-node-table {
+    overflow-x: scroll;
+  }
+
+  .status-node-table table {
+    width: max-content;
+  }
+
+  .status-node-table td {
+    min-width: 100px;
+  }
+}
+
 
 // Importing Vendored Keycard SCSS
 @import 'animations';
