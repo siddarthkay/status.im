@@ -244,6 +244,7 @@ site:
       title: "Join"
       status-nodes-link: "#status-node-runners"
       link: "Apply"
+      terms-and-conditions: 'Terms and conditions'
   features:
     intro:
       title: "The Power of Ethereum in Your Pocket"
