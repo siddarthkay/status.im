@@ -55,18 +55,19 @@ sudo apt install make jq golang qrencode
 The quickest way to start a node is using our `Makefile` scripts. See [here](https://github.com/status-im/status-go/blob/develop/MAILSERVER.md) for details.
 
 1. Clone the [status-go](https://github.com/status-im/status-go) repo.
+2. Start the Node service using one of two options:
 
-2. (Docker) If running inside a Docker container:
-```sh
-make run-mailserver-docker
-```
-For more details consult the [Docker](https://github.com/status-im/status-go/blob/develop/_assets/compose/mailserver) `README`.
+    A. Docker Container - Does not require building the node.
+    ```sh
+    make run-mailserver-docker
+    ```
+    For more details consult the [Docker](https://github.com/status-im/status-go/blob/develop/_assets/compose/mailserver) `README`.
 
-2. (systemd) If running as a systemd service:
-```sh
-make run-mailserver-systemd
-```
-For more details consult the [systemd](https://github.com/status-im/status-go/blob/develop/_assets/systemd/mailserver) `README`.
+    B. systemd service - Requires building the node.
+    ```sh
+    make run-mailserver-systemd
+    ```
+    For more details consult the [systemd](https://github.com/status-im/status-go/blob/develop/_assets/systemd/mailserver) `README`.
 
 ## Manual Approach
 
