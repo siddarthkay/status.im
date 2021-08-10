@@ -240,6 +240,7 @@ site:
         box-3:
           title: "Can utilize cloud providers such as AWS or Azure."
           number: "3"
+      learn-more: "Learn how to run a Status Node here"
     join:
       title: "Join"
       status-nodes-link: "#status-node-runners"
