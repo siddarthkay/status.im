@@ -1142,7 +1142,7 @@ site:
           content-4: 'c) Participe do canal #status-node-runners para obter suporte'
         step-3:
           title: 'Etapa 3'
-          content: 'Mantenha seu Nó Status por 3 meses (inserir datas)'
+          content: 'Mantenha seu Nó Status por 3 meses'
         step-4:
           title: 'Etapa 4'
           content: 'Após a conclusão do programa, a Status enviará a você $100 SNT como recompensa'
