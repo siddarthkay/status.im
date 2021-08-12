@@ -130,8 +130,8 @@ To enable Prometheus metrics, use the following flags when running `statusd`:
 ```
 Metrics will be exposed on the `9090` port:
 ```sh
- > curl -s localhost:9090/metrics | grep '^whisper_envelopes_received_total'
-whisper_envelopes_received_total 123
+ > curl -s localhost:9090/metrics | grep '^waku_envelopes_received_total'
+waku_envelopes_received_total 123
 ```
 
 ### Healthcheck
