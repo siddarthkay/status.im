@@ -215,7 +215,7 @@ site:
       steps:
         step-1:
           title: "Step 1"
-          content: "Apply by Thursday August 12, 2021 (The first 100 people to apply will be accepted)."
+          content: "Apply by Thursday August 19, 2021 (The first 100 people to apply will be accepted)."
         step-2:
           title: "Step 2"
           content-1: "Launch your status node."
