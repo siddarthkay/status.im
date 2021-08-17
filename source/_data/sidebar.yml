@@ -67,7 +67,9 @@ docs:
       - title: Security Best Practices
         path: best_security_practices.html
       - title: Desktop Beta Installation
-        path: ../user_guides/desktop_beta_install.html
+        path: desktop_beta_install.html
+      - title: GPG Signature Verification
+        path: gpg_signature_verification.html
 
   - title: Audits
     path: audits/

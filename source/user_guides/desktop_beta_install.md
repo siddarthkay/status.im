@@ -18,9 +18,11 @@ Due to the app being still in Beta, some manual steps are required to install or
 
 ## Linux
 
-* Download the <a href="{% get_build_url 'official' 'DIRECT_NIX' %}">Status AppImage file</a>.
+* Download the <a href="{% get_build_url 'official' 'DIRECT_NIX' %}">Status Tarball file</a>.
 * If you are upgrading from a previous version, backup the `~/.config/Status` directory somewhere else if you need it then delete it.
-* Make the downloaded `.AppImage` file executable: `chmod +x StatusIm-Desktop*.AppImage`.
+* Unpack the `AppImage` from the Tarball: `tar xvf StatusIm-Desktop-*.tar.gz`
+* Optionally [verify the GPG signature of the application](./gpg_signature_verification.html).
+* Execute the `AppImage` by prefixing it with `./`: `./StatusIm-Desktop-*.AppImage`
 
 ## Windows
 
