@@ -6,94 +6,96 @@ description: Build Status and participate in a Better Web
 
 # Build Status Yourself and Participate in a Better Web
 
-## The easiest way
+### 0. Prerequisites
 
-### Prerequisites
+- [Git](https://git-scm.com/)
+- [cURL](https://curl.se/)
+- [GNU Make](https://www.gnu.org/software/make/)
 
-- Linux: `git`, `curl` and `make`
-  - Run `sudo apt install -y git curl make` on the terminal
-- macOS: Make sure you have `curl` installed
+</br>
+
+On Debian/Ubuntu simply use:
+```sh
+sudo apt install -y git curl make
+```
 
 ### 1. Clone the repository
 
-```bash
+```sh
 git clone https://github.com/status-im/status-react
 cd status-react
 ```
 
-### 2. Install the dependencies
+### 2. Install Dependencies
 
-We created a special script that leverages [Nix](https://nixos.org/nix) to install everything Status needs with minimal impact to the user's system. This script has only been tested on macOS (with XCode 11.1), Ubuntu Linux 18.04, Manjaro, and [Arch](https://wiki.archlinux.org/index.php/Nix). If it doesn't work for you on another Linux distribution, please install all dependencies manually (you can find the list below).
-In order to make things as practical as possible, the script will auto-accept the Android SDK license agreements.
+We use [Nix](https://nixos.org/nix) package manager to create custom shells with all the necessary tools with minimal impact to the user's system. This setup has only been tested following systems:
 
-If you're on NixOS, please run the following to ensure you have the necessary prerequisites available:
+* Linux - Ubuntu 20.04, Manjaro, [Arch](https://wiki.archlinux.org/index.php/Nix)
+* macOS - With XCode 11.1
 
-```bash
-nix-env --install git gnumake
-```
+</br>
+If it doesn't work for you on another Linux distribution, please install all dependencies manually based on the list below.
 
-In order to work with status-react, you need to be inside a Nix shell. The makefile targets will ensure you are in a Nix shell, or start one for you implicitly. However, if you're going to be running multiple commands on the same terminal, you might want to start a dedicated Nix shell by running `make shell TARGET=android` (or using other `TARGET`).
+Most `Makefile` targets call [a script](https://github.com/status-im/status-react/blob/develop/nix/scripts/shell.sh) which will implicitly install all the necessary tools and dependencies. To do this it auto-accepts the Android SDK license agreements.
 
-The `make shell TARGET=<os>` script prepares and installs the following:
+The [pre-defined Nix shells](https://github.com/status-im/status-react/blob/develop/nix/shells.nix) install the following tools:
 
-- Java 8
-- Clojure and Leiningen
-- Node.js (see note below)
-- yarn
-- React Native CLI and Watchman
-- Android SDK
-- Android NDK
-- Maven
-- Cocoapods
-- CMake and extra-cmake-modules
-- Go
-- Python 2.7
-- Conan (Linux-only)
-- unzip
-- wget
+* Go, OpenJDK 8, Python 2.7
+* Clojure and shadow-cljs
+* Node.js & Yarn
+* React Native CLI and Watchman
+* Android SDK & NDK
+* Gradle & Maven
+* Fastlane & Cocoapods
+* CMake & extra-cmake-modules
+* Make, Git, cURL, wget, unZip
 
-*Note 1:* It can take up to 60 minutes depending on your machine and internet connection speed.
+</br>
 
-*Note 2:* An environment variable called `TARGET` controls the type of shell that is started. If you want to limit the amount of dependencies downloaded, you could run `make shell TARGET=android`. Most of the makefile targets already include a sensible default.
+__WARNING:__ Downloading all of these can take more than an hour depending on your machine and internet speed.
 
-*Note 3:* On macOS, the build environment is set up to rely on XCode 11.1. If you want to use an unsupported version, you'll need to edit the version in [nix/mobile/default.nix](https://github.com/status-im/status-react/blob/develop/nix/mobile/default.nix) file (`xcodewrapperArgs.version`).
+__WARNING:__ On macOS, the build environment is set up to rely on XCode 11.5. To allow an older version edit `version` in [nix/overlay.nix](https://github.com/status-im/status-react/blob/develop/nix/overlay.nix) file (`xcodeWrapper`).
 
-## Running development processes
+For more information about our Nix setup [read our README](https://github.com/status-im/status-react/blob/develop/nix/README.md) or [watch our Nix presentations](https://github.com/status-im/status-react/blob/develop/nix/README.md#resources).
 
-After you installed all the dependencies, you need to run two processes — the build process and React Native packager. Keep both processes running when you develop Status.
+### 3. Running development processes
 
-### 1. Build process
+To build Status need to run two processes: Clojure compiler and React Native packager.
+
+Keep both processes running when you develop Status. Restarting them might be requires when updating dependencies or changing Nix configuration.
+
+#### A. Clojure compiler
 
 In the first terminal window, just run:
 
-```bash
+```sh
 make run-clojure
 ```
 
-By doing this you will start the compilation of ClojureScript sources and run re-frisk (a tool for debugging). You should wait until it shows you `Build completed` before running the React Native packager.
+By doing this you will start the compilation of ClojureScript sources. You should wait until it shows you `Build completed` before running the React Native packager.
 
-For additional information check the following:
+You can also start a debugger server using:
+```sh
+make run-re-frisk
+```
 
-- [clj-rn](https://github.com/status-im/clj-rn);
-- [re-frisk](https://github.com/flexsurfer/re-frisk).
+For additional information check the following: [clj-rn](https://github.com/status-im/clj-rn) & [re-frisk](https://github.com/flexsurfer/re-frisk)
 
-### 2. React Native packager
+#### B. React Native packager
 
 Do this in the second terminal window:
 
-```bash
+```sh
 make run-metro
 ```
 
 Which starts Metro bundler and watches JavaScript code changes.
 
-## Build and run the application itself
+### 4. Build and run the application itself
 
-### iOS (macOS only)
+#### iOS (macOS only)
 
-Just execute
-
-```bash
+```sh
 make run-ios
 ```
 
@@ -104,47 +106,55 @@ You can also start XCode and run the application there. Execute `open ios/Status
 
 *Note:* Of course, you need to install XCode first in both cases. Just go to Mac AppStore to do this.
 
-### Android
+#### Android
 
-Installation script installs Android SDK and Android NDK.
+```sh
+make run-android
+```
 
 - *Optional:* If you want to use AVD (Android Virtual Device, emulator), please, check [this documentation](https://developer.android.com/studio/run/emulator);
 - *Optional:* If you don't like AVD, you can also use [Genymotion](https://genymotion.com);
 
-Once Android SDK is set up, execute:
-
-```bash
-make run-android
-```
-
+</br>
 Check the following docs if you still have problems:
 
 - [macOS](https://gist.github.com/patrickhammond/4ddbe49a67e5eb1b9c03);
 - [Ubuntu Linux](https://gist.github.com/zhy0/66d4c5eb3bcfca54be2a0018c3058931);
 - [Arch Linux](https://wiki.archlinux.org/index.php/android) (can also be useful for other Linux distributions).
 
-## Optional: Advanced build notes
+# Advanced Build Options
+
+### Running commands in Nix shell
+
+If you want to run any of the commands by hand - like Gradle or Fastlane - you can open a Nix shell using either of:
+```sh
+make shell TARGET=android
+```
+```sh
+make shell TARGET=ios
+```
+You can read more about our Nix shells [in the docs](https://github.com/status-im/status-react/blob/develop/nix/DETAILS.md#shells).
 
 ### Building and using forks of status-go
 
-If you need to use a branch of a status-go fork as a dependency of status-react, you can have the scripts build it.
+If you need to use a branch of a `status-go` fork as a dependency of `status-react`, you specify it using an update script:
 
-1. Make sure you are in the root of the `status-react` repo and start a Nix shell using `make shell TARGET=android`.
-1. Run `scripts/update-status-go.sh <rev>`, where `rev` is a branch name, tag, or commit SHA1 you want to build.
+```sh
+scripts/update-status-go.sh <rev>
+```
 
-The script will save the indicated commit hash along with other information in the `status-go-version.json` file.
+Where `rev` is a branch name, tag, or commit SHA1 you want to build. The script will save the indicated commit hash along with other information in the `status-go-version.json` file.
 
 If you are using a GitHub fork of `status-go` repo, export the `STATUS_GO_OWNER` environment variable when running the script.
 
-### Building and using local source repository of status-go
+### Building local `status-go` repository
 
-If instead you need to use a locally checked-out status-go repository as a dependency of status-react, you can achieve that by defining the `STATUS_GO_SRC_OVERRIDE`
-environment variable.
+If instead you need to use a locally checked-out `status-go` repository as a dependency of `status-react`, you can achieve that by defining the `STATUS_GO_SRC_OVERRIDE`
+environment variable:
 
 ```sh
 export STATUS_GO_SRC_OVERRIDE=$GOPATH/src/github.com/status-im/status-go
-# Any command that you run from now on
-# will use the specified status-go location
+# Any command that you run from now on will use the specified status-go location.
 make release-android
 ```
 
@@ -154,7 +164,7 @@ or for a one-off build:
 make release-android STATUS_GO_SRC_OVERRIDE=$GOPATH/src/github.com/status-im/status-go
 ```
 
-## Debugging tips
+# Troubleshooting
 
 ### Inspecting app DB inside Clojure REPL
 
@@ -168,31 +178,18 @@ E.g. if you want to check existing accounts in the device, run this function in 
 
 Assuming re-frisk is running in port 4567, you can just navigate to `http://localhost:4567/` in a web browser to monitor app state and events.
 
-## Updating dependencies
+### Updating dependencies
 
-### iOS CocoaPods dependencies
-
-Whenever the iOS NodeJS dependencies change, `make nix-update-pods` should be run in order to update `ios/Podfile` and `ios/Podfile.loc`.
-
-### Android Gradle Maven dependencies
-
-Whenever the Android project changes in terms of Gradle dependencies, `make nix-update-gradle` should be run in order to update `nix/deps/gradle/deps.json`.
-
-### Clojure Maven dependencies
-
-Whenever the Clojure dependencies change, `make nix-update-clojure` should be run in order to update `nix/deps/clojure/deps.json`.
-
-### Fastlane Ruby dependencies
-
-Whenever Fastlane and its modules need updating, `make nix-update-gems` should be run in order to update `fastlane/Gemfile.lock` and `fastlane/gemset.nix`.
-
-## Troubleshooting
+* `make nix-update-pods` - iOS CocoaPods dependencies (updates `ios/Podfile` and `ios/Podfile.loc`)
+* `make nix-update-gradle` - Android Gradle/Maven dependencies (updates `nix/deps/gradle/deps.json`)
+* `make nix-update-clojure` - Clojure Maven dependencies (updates `nix/deps/clojure/deps.json`)
+* `make nix-update-gems` - Fastlane Ruby dependencies (updates `fastlane/Gemfile.lock` and `fastlane/gemset.nix`)
 
 ### I have issues compiling on Xcode 10
 
 Some developers are experiencing errors compiling for iOS on Xcode 10 on macOS Mojave:
 
-```txt
+```log
 error: Build input file cannot be found:
 
 'status-react/node_modules/react-native/third-party/double-conversion-1.1.6/src/cached-powers.cc'
@@ -200,14 +197,10 @@ error: Build input file cannot be found:
 
 To fix similar errors run the following commands:
 
-```bash
-cd ios
-pod update
-cd -
-
-cd node_modules/react-native/scripts && ./ios-install-third-party.sh && cd -
-
-cd node_modules/react-native/third-party/glog-0.3.4/ && ../../scripts/ios-configure-glog.sh && cd -
+```sh
+{ cd ios && pod update }
+{ cd node_modules/react-native/scripts && ./ios-install-third-party.sh }
+{ cd node_modules/react-native/third-party/glog-0.3.4/ && ../../scripts/ios-configure-glog.sh }
 ```
 
 Now you should be able to compile again. The issue reference is [here](https://github.com/facebook/react-native/issues/21168#issuecomment-422431294).
