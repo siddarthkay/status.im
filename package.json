@@ -32,7 +32,7 @@
     "gulp-minify": "^3.1.0",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-webserver": "^0.9.1",
     "hexo": "^4.2.1",
     "hexo-deployer-git": "^0.3.1",
