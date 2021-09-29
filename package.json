@@ -63,6 +63,7 @@
     "rename": "^1.0.4",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
+    "sass": "^1.42.1",
     "tailwindcss": "^1.4.6"
   }
 }
