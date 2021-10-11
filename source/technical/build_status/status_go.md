@@ -100,7 +100,7 @@ In order to see the log files while debugging on an Android device, do the follo
 Run
 
 ```shell
-adb shell tail -f sdcard/Download/geth.log
+adb shell tail -f sdcard/Android/data/im.status.ethereum.debug/files/Download/geth.log
 ```
 
 ## Testing
