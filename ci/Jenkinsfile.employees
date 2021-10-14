@@ -56,18 +56,6 @@ pipeline {
         }
       }
     }
-
-    stage('Deploy Dev') {
-      steps {
-        build(job: 'website/dev.status.im')
-      }
-    }
-
-    stage('Deploy Prod') {
-      steps {
-        build(job: 'website/status.im')
-      }
-    }
   }
   post {
     always { cleanWs() }
