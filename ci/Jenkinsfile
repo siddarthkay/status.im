@@ -11,8 +11,8 @@ pipeline {
   }
 
   environment {
-    GIT_USER = 'status-im-auto'
-    GIT_MAIL = 'auto@status.im'
+    GIT_AUTHOR_NAME = 'status-im-auto'
+    GIT_AUTHOR_EMAIL = 'auto@status.im'
     /* dev site deployment */
     DEV_SITE = 'dev.status.im'
     DEV_HOST = 'jenkins@node-01.do-ams3.sites.misc.statusim.net'
@@ -20,14 +20,7 @@ pipeline {
   }
 
   stages {
-    stage('Git Prep') {
-      steps {
-        sh "git config user.name ${GIT_USER}"
-        sh "git config user.email ${GIT_MAIL}"
-      }
-    }
-
-    stage('Install Deps') {
+    stage('Deps') {
       steps {
         sh 'yarn install'
       }

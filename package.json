@@ -12,6 +12,7 @@
     "devel": "gulp devel",
     "index": "gulp index",
     "deploy": "hexo deploy",
+    "employees": "gulp employees",
     "eslint": "eslint ."
   },
   "devDependencies": {
