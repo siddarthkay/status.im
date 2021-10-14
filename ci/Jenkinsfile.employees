@@ -24,23 +24,29 @@ pipeline {
     }
 
     stage('Employees') {
-      steps {
+      steps { script {
         withCredentials([string(
           credentialsId: 'bamboo-hr-token',
           variable: 'BAMBOO_API_TOKEN',
         )]) {
           sh 'yarn run employees'
         }
-      }
+        dataChanged = sh(
+          script: 'git ls-files -m',
+          returnStdout: true
+        ).trim()
+      } }
     }
 
     stage('Commit') {
+      when { expression { dataChanged } }
       steps {
         sh "git commit -m '${MSG}' source/_data"
       }
     }
 
     stage('Rebase') {
+      when { expression { dataChanged } }
       steps {
         sh 'git checkout master'
         sh 'git rebase develop'
@@ -48,6 +54,7 @@ pipeline {
     }
 
     stage('Push') {
+      when { expression { dataChanged } }
       steps {
         sshagent(credentials: ['status-im-auto-ssh']) {
           sh 'git pull --rebase origin develop'
