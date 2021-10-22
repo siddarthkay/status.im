@@ -517,3 +517,15 @@ employees:
     customStatusPublicKey: '0x04eac0dfbdb475e903e816f1ab9b193f0dd0c404226923c7035cee08f39d6730ffda5c4fc7c8f515a5e08ed9c31a88a1d1039defb72a3cbd2b93935f00f261b144'
     customGitHubusername: ManuchehrEbrahimi
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=e33503255e83824c08a672ee348fe25a'
+  - id: '238'
+    firstName: Alvin
+    workEmail: alvin@status.im
+    customStatusPublicKey: null
+    customGitHubusername: alvinjiang
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=7b599b128f17830a230095bc18be4900'
+  - id: '239'
+    firstName: Agata
+    workEmail: agata@status.im
+    customStatusPublicKey: null
+    customGitHubusername: null
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=40f2baaafd089801ff781fb958a14f8d'
