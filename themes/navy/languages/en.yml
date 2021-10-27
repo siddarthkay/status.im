@@ -104,7 +104,7 @@ site:
       link-1: "Join us. See all open positions"
       link-2: "Learn more about life at Status"
   snt:
-    intro: 
+    intro:
       title: "Status Network Token"
       description: SNT powers and incentivizes participation <br>in the Status Network.
       link-1: "The Basics"
@@ -172,7 +172,7 @@ site:
         status: "Research"
         description: "Achieving our mission ultimately requires one thing: widespread end-user adoption. Using the Status Network Token, we can design mechanisms for growth that have been tried and tested in Web 2.0, whilst providing greater transparency and better alignment of incentives for participants. The Status Acquisition Engine provides a cryptographically provable and transparent means of growing the user base."
     crypto-research:
-      title: "Cryptoeconomic Research" 
+      title: "Cryptoeconomic Research"
       description-1: "Community Contributors from around the world conduct research on the cryptoeconomic models for SNT use cases to inform product and feature development as well as incentivization of the Status Network. <br><br>These cryptoeconomic models are an ongoing research effort and anyone is encouraged to explore, critique, and review the work."
       link-1: " Join #status"
       description-2: "Join the public channel & learn more about the research"
@@ -186,7 +186,7 @@ site:
       description: "Anyone is welcome to get involved and test the economic models outlined in the workbooks. If you are a researcher, economist, or simply curious about the financial models, please get involved."
       link: "Test the SNT Token Models"
   status-nodes:
-    intro: 
+    intro:
       title: "Introducing Phase 0 of the Status Node Program"
       description-1: "Run a Status Node. Decentralize the world. Earn SNT."
       description-2: "Apply to our special incentives program to be able to earn $100 SNT."
@@ -334,12 +334,12 @@ site:
         link-3: "Developer Resources"
         link-4: "Github"
       repositories:
-        title: Repositories, Open Issues and Bounties  
+        title: Repositories, Open Issues and Bounties
       build-for-status:
-        title: Build for Status 
+        title: Build for Status
         description: Get your DApp on Status at the
         link: DApp Integration Center
-      contribute-to-status: 
+      contribute-to-status:
         title: "Get Started"
         description: "Our open source project"
         link: "Contributor Guide"
@@ -354,14 +354,14 @@ site:
         open-issues-status-react:
           title: "Open Issues Status-React"
           link: "View all open issues"
-        open-issues-status-go: 
+        open-issues-status-go:
           title: "Open Issues Status-Go"
           link: "View all open issues"
-        earn-crypto: 
+        earn-crypto:
           title: "Earn crypto for <br>completing bounties"
           description: "See the full list of technical bounties on"
           link: "Gitcoin"
-        report-a-security-vulnerability: 
+        report-a-security-vulnerability:
           title: "Report a security <br>vulnerability and fix it"
           description: "Learn more about the"
           link: "Bug bounty program"
@@ -508,7 +508,7 @@ site:
       content-5:
         title: "Pseudo-Anonymous Account Generation"
         description: "When you create a new account on Status, you will never be asked for third party verification such as an email or phone number. This means you can sign up for and create a Status account and remain pseudo-anonymous. When you create an account, it is simply you and your keys. This also means that two factor authentication and password recovery are not features within Status - so be sure to remember your password and mnemonic phrase and store them offline somewhere extremely safe."
-      content-6: 
+      content-6:
         title: "How are my keys stored?"
         description-1: "Status will never use third party services for managing and storing your public and private keys. Once generated, the first BIP44 key is saved in a keystore json file locally on your device. This file is encrypted with the password you choose for your Status account and only accessible by the Status app. We prioritize storing sensitive information in secure hardware when it is available on your device."
         description-2: "For an additional layer of security, we have introduced Keycard which serves as offline cold storage for private key management and their operations."
@@ -529,17 +529,17 @@ site:
         description-1: "As we reach major milestones in development, after rounds of internal review and auditing, we reach out to industry leading, third-party auditing firms to verify our sanity, and double/triple check the work that we do. These security audits are not guarantees of security in the projects they pertain to. They are additional checks from objective third parties to help bolster confidence in the security of intended functionality."
         description-2: "For information and details on all external audits, please see the %s."
         description-3: "If you find a bug or vulnerability in our code, please report it to %s."
-        ENS: 
-          title: ENS smart contract with Sigma Prime 
+        ENS:
+          title: ENS smart contract with Sigma Prime
           commit: October 2018 - ENS Username Contract - commit hash eaefa92
-          report: report 
-          tests: tests 
-          code: code 
-          blog: blog post 
+          report: report
+          tests: tests
+          code: code
+          blog: blog post
         dejavu:
           title: Deja Vu Beta Audit
-          commit: May 07, 2018 - Status-go and Status-react repos with Deja Vu 
-          report: report 
+          commit: May 07, 2018 - Status-go and Status-react repos with Deja Vu
+          report: report
           blog: blog post
       content-11:
         title: "Educate yourself to stay safe"
@@ -1164,3 +1164,15 @@ site:
     description-3: "See our"
     faq: "General FAQ"
     mobile: "Mobile"
+  crypto-atelier:
+    main_subtitle: "A Status initiative to create a self-sustaining community of crypto-artists."
+    know_more: "Know More"
+    how_it_works_title: "How it works"
+    how_it_works_text1: "We're connecting artists from across Latin America and creating a knowledge-sharing ecosystem. Our goal is to make more people aware of the fascinating possibilities of the world of cryptoart."
+    how_it_works_text2: "Here you can learn everything from the basics of cryptocurrencies and NFTs to helping other beginning artists or getting help."
+    join_us_title1: "Join us"
+    join_us_title2: "Join us!"
+    join_us_text1: "Do you create digital arts and would like to join our community?"
+    join_us_text2: "Go to Status Discord and say hello!"
+    nft_gallery_title: "NFT Gallery"
+    nft_gallery_subtitle: "Some artists who already participate in our community and their NFT creations."

@@ -1140,3 +1140,16 @@ site:
           number: '3'
     join:
       link: 'Regístrate aquí'
+
+  crypto-atelier:
+    main_subtitle: "Uma iniciativa da Status para criar uma comunidade auto-sustentável de cripto-artistas."
+    know_more: "Saiba mais"
+    how_it_works_title: "Como funciona"
+    how_it_works_text1: "Estamos conectando artistas de toda América Latina e criando um ecossistema de compartilhamento de conhecimento. Nosso objetivo é que mais pessoas conheçam as fascinantes possibilidades do mundos da criptoarte."
+    how_it_works_text2: "Aqui você pode aprender desde o básico sobre criptomoedas e NFTs até ajudar outros artistas iniciantes ou obter ajuda."
+    join_us_title1: "Junte-se a nós"
+    join_us_title2: "Junte-se a nós!"
+    join_us_text1: "Você cria artes digitais e gostaria de juntar-se à nossa comunidade?"
+    join_us_text2: "Acesse o Discord da Status e diga olá!"
+    nft_gallery_title: "Galeria NFT"
+    nft_gallery_subtitle: "Alguns artistas que já participam da nossa comunidade e suas criações NFT."
