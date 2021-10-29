@@ -66,12 +66,6 @@ employees:
     customStatusPublicKey: '0x046f50d110b35c86c12e35674c02dc67444e0acb86be6727278ca9638cddec795491351ab9195b6c2faf9a9c7718b0be9369f5607095d4d077c7fd5a95eae594d6'
     customGitHubusername: churik
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=eac4f5b0662e834f76e83f7d2e5c1f74'
-  - id: '65'
-    firstName: Serhii
-    workEmail: sergii@status.im
-    customStatusPublicKey: '0x0478a6f0754526c499952abefb03f02068af69f6e1d0431970bf1943f7cefffc0042f672bee7b3b65297ad6d240d11bb2182e4fdd9ed35a88f0b86ff85032396c1'
-    customGitHubusername: Serhy
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=3c8ce72be0dddba659cc96f067ead53d'
   - id: '66'
     firstName: Hester
     workEmail: hester@status.im
