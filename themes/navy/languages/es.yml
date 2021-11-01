@@ -1140,16 +1140,15 @@ site:
           number: '3'
     join:
       link: 'Regístrate aquí'
-
   crypto-atelier:
-    main_subtitle: "Uma iniciativa da Status para criar uma comunidade auto-sustentável de cripto-artistas."
-    know_more: "Saiba mais"
-    how_it_works_title: "Como funciona"
-    how_it_works_text1: "Estamos conectando artistas de toda América Latina e criando um ecossistema de compartilhamento de conhecimento. Nosso objetivo é que mais pessoas conheçam as fascinantes possibilidades do mundos da criptoarte."
-    how_it_works_text2: "Aqui você pode aprender desde o básico sobre criptomoedas e NFTs até ajudar outros artistas iniciantes ou obter ajuda."
-    join_us_title1: "Junte-se a nós"
-    join_us_title2: "Junte-se a nós!"
-    join_us_text1: "Você cria artes digitais e gostaria de juntar-se à nossa comunidade?"
-    join_us_text2: "Acesse o Discord da Status e diga olá!"
-    nft_gallery_title: "Galeria NFT"
-    nft_gallery_subtitle: "Alguns artistas que já participam da nossa comunidade e suas criações NFT."
+    main_subtitle: "Una iniciativa de Status para crear una comunidad auto-sostenible de cripto-artistas."
+    know_more: "Saber más"
+    how_it_works_title: "Cómo funciona"
+    how_it_works_text1: "Estamos conectando artistas de toda América Latina y creando un ecosistema de conocimiento compartido. Nuestro objetivo es que más personas conozcan las increíbles posibilidades del mundo del criptoarte."
+    how_it_works_text2: "Aqui podrás aprender desde lo básico sobre criptomobedas e NFTs hasta ayudar a otros artistas principiantes e incluso obtener ayuda."
+    join_us_title1: "Únete"
+    join_us_title2: "¡Únete!"
+    join_us_text1: "¿Creas artes digital y te gustaría unirte a nuestra comunidad?"
+    join_us_text2: "Entra al Discord de Status y di hola!"
+    nft_gallery_title: "Galería NFT"
+    nft_gallery_subtitle: "Algunos artistas que ya participan en nuestra comunidad y sus creaciones NFT."
