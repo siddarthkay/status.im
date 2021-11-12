@@ -108,12 +108,6 @@ employees:
     customStatusPublicKey: '0x04e25da6994ea2dc4ac70727e07eca153ae92bf7609db7befb7ebdceaad348f4fc55bbe90abf9501176301db5aa103fc0eb3bc3750272a26c424a10887db2a7ea8'
     customGitHubusername: richard-ramos
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=379659687ebf88f25ecacafb2d507e38'
-  - id: '90'
-    firstName: Stefania
-    workEmail: stefania@status.im
-    customStatusPublicKey: '0x044c4bb4e4ef7af340b4948897e0dbcf5c901700ac44f169e91b1db53ac8c1da891d12b91a3a41bc78aaae32b28fc351446974e4af33f617a70ba09ef5b2183eee'
-    customGitHubusername: null
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=fc2aeac835e2e5172bf93d8b6b76dd70'
   - id: '95'
     firstName: Iuri
     workEmail: iuri@status.im
@@ -283,12 +277,6 @@ employees:
     customStatusPublicKey: '0x04a83abc57dae5a113c028963825c9d120c203c073d1dab607ab0f44d10bcde69d0d87a8cc98ac3d53264ef4035c3802f4a8f4c4b66950220cb376a54b3396802a'
     customGitHubusername: markspanbroek
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=d6a905470733355d8893f8a2bb7a63a6'
-  - id: '182'
-    firstName: Alan
-    workEmail: alan@status.im
-    customStatusPublicKey: '0x04651d70fc23c50bb2cc3e9db006ff904d23aace8a16a1ebe69a2880860707f46c2b0dc37681d474cbf88942221fcb55b833abb02107a5b9f8462da196446520bb'
-    customGitHubusername: alandooz
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=a4174b6df2fb105ad9e7793c58ee1006'
   - id: '183'
     firstName: Diana
     workEmail: dianak@status.im
@@ -505,6 +493,12 @@ employees:
     customStatusPublicKey: '0x04eac0dfbdb475e903e816f1ab9b193f0dd0c404226923c7035cee08f39d6730ffda5c4fc7c8f515a5e08ed9c31a88a1d1039defb72a3cbd2b93935f00f261b144'
     customGitHubusername: ManuchehrEbrahimi
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=e33503255e83824c08a672ee348fe25a'
+  - id: '237'
+    firstName: Deivids
+    workEmail: deivids@status.im
+    customStatusPublicKey: null
+    customGitHubusername: Priedins15
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=3f90bf6b53b7766af39be87d6b79bc95'
   - id: '238'
     firstName: Alvin
     workEmail: alvin@status.im
