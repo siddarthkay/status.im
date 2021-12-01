@@ -410,6 +410,23 @@ $(document).ready(function($) {
     else header.css(relative);
   });
 
+  // Unfold an FAQ item based on ID
+  if (window.location.pathname === '/faq/') {
+    const hash = window.location.hash.substring(1);
+    if (hash.length) {
+      $(`a#${hash}`).click();
+      setTimeout(() => {
+        const yOffset = w < 768 ? -150 : -190;
+        const element = document.getElementById(`${hash}-answer`);
+        const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }, 400);
+    }
+    $('a.question-link').click((ev) => {
+      history.pushState({}, $(ev.target).text(), `/faq/#${$(ev.target).attr('id')}`)
+    })
+  }
+
   // Partner campaign landing page start
   if (document.title === 'Status - Partner Campaign Template' || document.title === 'Status - criptomaniacos') {
 
