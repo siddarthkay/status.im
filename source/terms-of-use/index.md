@@ -67,6 +67,9 @@ You’re responsible for taking precautions to protect yourself and your devices
 
 To use the Status app, you must be fully able and competent to agree to these terms and to use all services provided on the Status app. To use the Status app without parental permission, you must meet the minimum age requirements in your country of residence. 
 
+When using Status app, you may be able to access, use, or interact with third party products and services, such as websites, blockchain wallet transactions, apps and DApps, support services, and group chat community spaces. 
+When you use such third party service, please be aware that they are provided entirely by third party service providers and their terms and conditions, including privacy policies, govern your use of those services, and Status shall not be liable for your use of or activities on or with any third party service.
+
 ### Status is open-source
 
 The software we create is a public good. The Status source code is made available via free and open-source licenses, for anyone to share, modify, and benefit from (according to the applicable license). We believe in permission-less participation. Information regarding the Status app’s current software can be found [here](https://github.com/status-im/).
