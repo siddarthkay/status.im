@@ -529,3 +529,9 @@ employees:
     customStatusPublicKey: null
     customGitHubusername: null
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=d0b8b9b6c917c82fde60699e57337894'
+  - id: '256'
+    firstName: John
+    workEmail: johnngei@status.im
+    customStatusPublicKey: Infinite Fuzzy Blackrhino
+    customGitHubusername: jo-mut
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=72bea061dbe60c4420ed83bea16b5737'
