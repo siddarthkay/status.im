@@ -262,7 +262,7 @@ employees:
   - id: '176'
     firstName: Aleksander
     workEmail: aleksander@status.im
-    customStatusPublicKey: '0x04e154876760cb6df8e3ed9758a94b4264de593167f092e9cdf68b48b74573bd694b03c316627bf0fa8304161c973d28f9474ac6f810ec8be7f7d7f43996da5584'
+    customStatusPublicKey: '0x047ab815a9abb9086adcdf431c25a7165abff1bc3f645d1df3e97b12b42f9d7df2dea016efab606779f6b2d68f01424bfee1776e215430f8a789929aab0677ade3'
     customGitHubusername: AK87ST
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=b04d6dd3e61e31b587be789aec7f6147'
   - id: '179'
