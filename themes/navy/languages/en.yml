@@ -491,6 +491,7 @@ site:
         title: "Secure <br>Browsing"
         description: "When browsing Web3, end user data and browsing information is not accessible by any third parties without consent. Any transactions made while using the Status browser implement the same security standards and best practices used in the Status wallet."
     security-content:
+      bug-bounty: Join our bug bounty
       content-1:
         title: "Secure Identity"
         description: "Your identity in Status starts with a locally generated cryptographic keypair, which is then protected via a password. That's all that is required. The user then has the ability to add information to their profile to build up who they are in Status. At all times the user has full control over their information, and who has access to it. The end user can be as public or private as they want."
