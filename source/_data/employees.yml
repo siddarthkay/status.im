@@ -160,7 +160,7 @@ employees:
   - id: '123'
     firstName: Guy-Louis
     workEmail: guylouis@status.im
-    customStatusPublicKey: '0x0433380ec97bbf5ed563e921bec4abd9aa03691a41b29631d618ad8a6fcc3c7235c10730a8575c77190c5aaec6da3397de6dc4d9b7cf30d4652740bae8b0486154'
+    customStatusPublicKey: null
     customGitHubusername: guylouis
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=98c0970eba13386fc1c2c05c72537e86'
   - id: '124'
@@ -319,12 +319,6 @@ employees:
     customStatusPublicKey: '0x043fe56ef8bad30607b7de6494b7c812e8da68b720f104293f49fa24ed2e973027fe8cfc9ec396fde750266050434a34494f7a0ab47010e1408608451b191f75a9'
     customGitHubusername: staheri14
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=d2ee009f583c5777967bba7fcb7ccf93'
-  - id: '194'
-    firstName: Shivek
-    workEmail: shivek@status.im
-    customStatusPublicKey: '0x047050e1c91acc21d166fb6b107b36bdf3b152bff01f69738eae793bae2796a78c5f3f95f52f90641a3745c01b62e56665a5e139a489a19c118e6b7794ae887de2'
-    customGitHubusername: shivekkhurana
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=07ab953b6cd29d9297a905b86f0d6479'
   - id: '195'
     firstName: Juan
     workEmail: juandavid@status.im
