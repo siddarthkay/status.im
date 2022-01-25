@@ -108,7 +108,8 @@ The configuration is provided as a JSON file. Here is a basic config to run a Wa
         "Enabled": true,
         "EnableMailServer": true,
         "DataDir": "/var/tmp/statusd/waku",
-        "MailServerPassword": "status-offline-inbox"
+        "MailServerPassword": "status-offline-inbox",
+        "MailServerDataRetention": 30
     }
 }
 ```
