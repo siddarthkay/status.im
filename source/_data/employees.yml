@@ -583,3 +583,9 @@ employees:
     customStatusPublicKey: '0x04c104563c10ee142976112c4fdd8c2b60cfaf406aa55bf0f7e28526c39858c94b7ca8bd0d7201daf75821ed6e803f9bea9cadbbd7d39f4285c4b52e6678b69559'
     customGitHubusername: msuess
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=8194d34cf75db0e847bcf60892cfa1b3'
+  - id: '267'
+    firstName: Jeannie
+    workEmail: jeannie@status.im
+    customStatusPublicKey: null
+    customGitHubusername: jeanniesarah
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=72ebd2b76810e842ff143dd3a21b590d'
