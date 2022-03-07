@@ -35,6 +35,10 @@ hexo.extend.helper.register('employees', function(type) {
   var employees = this.site.data.employees,
     result = '';  
   _.each(employees['employees'], function(employee, index) {
+    var github_link = '';
+    if(employee['customGitHubusername']) {
+      var github_link = '<li class="ml-6"><a href="https://github.com/' + employee['customGitHubusername'] + '" target="_blank"><img src="/img/icon-github-purple.svg"></a></li>';
+    }
     result += '<li class="relative group ml-8 mt-12 w-32 h-32"> \
       <a href="#"><img src="'+ employee['photoUrl'] +'" class="rounded-full w-24 h-24"></a> \
       <div class="transition-all duration-200 linear hover:z-10 flex group-hover:opacity-100 group-hover:visible absolute opacity-0 invisible -mt-24 rounded w-64 bg-white z-20 shadow p-8 flex flex-col items-center text-center w-24 h-24" style="width: 190px; height: 200px; top: 40px; left:-65px;">\
@@ -42,7 +46,7 @@ hexo.extend.helper.register('employees', function(type) {
         <p class="mt-4 font-semibold font-special text-lg">'+ employee['firstName'] +'</p> \
         <ul class="flex items-center mt-8">\
           <li><a href="https://join.status.im/user/'+ employee['customStatusPublicKey'] +'" target="_blank"><img src="/img/icon-status-purple.svg"></a></li> \
-          <li class="ml-6"><a href="https://github.com/'+ employee['customGitHubusername'] +'" target="_blank"><img src="/img/icon-github-purple.svg"></a></li> \
+          ' + github_link + ' \
         </ul>\
       </div>\
     </li>'
