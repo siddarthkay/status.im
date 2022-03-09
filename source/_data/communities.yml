@@ -14,7 +14,7 @@
   publicChat: 'status-spanish'
   description: 'site.get-involved.community.community-groups.account-group-3.description'
   occupation: 'site.get-involved.community.community-groups.account-group-3.occupation'
-  name: Lalo Garza
+  name: Natalia
 
 - image: 'status-chinese.svg'
   publicChat: 'status-chinese'
@@ -33,6 +33,12 @@
   description: 'site.get-involved.community.community-groups.account-group-7.description'
   occupation: 'site.get-involved.community.community-groups.account-group-7.occupation'
   name: 'Erol'
+
+- image: 'status-india.svg'
+  publicChat: 'status-india'
+  description: 'site.get-involved.community.community-groups.account-group-8.description'
+  occupation: 'site.get-involved.community.community-groups.account-group-8.occupation'
+  name: 'site.get-involved.community.community-groups.account-group-8.name'
 
 - image: 'philosophers.svg'
   publicChat: 'philosophers'

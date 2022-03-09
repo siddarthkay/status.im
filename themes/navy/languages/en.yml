@@ -474,6 +474,10 @@ site:
         account-group-7:
           description: "Status Turkish community"
           occupation: "Organizer"
+        account-group-8:
+          description: "Status Indian community"
+          occupation: "Organizer"
+          name: "Bhavesh"
   security:
     intro:
       title: "Secure By Design"
