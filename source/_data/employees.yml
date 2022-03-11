@@ -160,7 +160,7 @@ employees:
   - id: '123'
     firstName: Guy-Louis
     workEmail: guylouis@status.im
-    customStatusPublicKey: null
+    customStatusPublicKey: '0x044c6dc4ca944d1d13c06f88908c46812bbc17ee16bde26f66623f8c44eec3496c43ad7f56fd645081d03854c8e1df9e644a2458402d34c71d6814f6ee03144d9f'
     customGitHubusername: guylouis
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=98c0970eba13386fc1c2c05c72537e86'
   - id: '124'
@@ -439,12 +439,6 @@ employees:
     customStatusPublicKey: null
     customGitHubusername: null
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=451eb2467472839dee520cea8db9698f'
-  - id: '230'
-    firstName: Blake
-    workEmail: blake@status.im
-    customStatusPublicKey: null
-    customGitHubusername: null
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=0407565cf9f57e070acdfc5e33d2674f'
   - id: '231'
     firstName: Etan
     workEmail: etan@status.im
@@ -526,7 +520,7 @@ employees:
   - id: '252'
     firstName: Stefan
     workEmail: stefand@status.im
-    customStatusPublicKey: null
+    customStatusPublicKey: '0x0486081a2b823f02047d770d53b98a2d822c9606d068213c999ed1e425320103635c68a159231b5b76954dc62569235e5c5d00fd43232598d7547b33d52e37838a'
     customGitHubusername: stefandunca
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=6cec02d300b2a12688adc190207728fa'
   - id: '253'
@@ -628,6 +622,12 @@ employees:
   - id: '271'
     firstName: Audrius
     workEmail: audrius@status.im
-    customStatusPublicKey: You sent 0x0429999edbe8494314455568459c9c4b0d1d9ecc8ba2c5ba321bf077c4e9be6e330adbbfb5d69124d9fd7f4d999153989ea9d6c655668aa3da9df795765d715d77
+    customStatusPublicKey: '0x0429999edbe8494314455568459c9c4b0d1d9ecc8ba2c5ba321bf077c4e9be6e330adbbfb5d69124d9fd7f4d999153989ea9d6c655668aa3da9df795765d715d77'
     customGitHubusername: audriu
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=e933b68e13e26eb7393750fb9755ac45'
+  - id: '272'
+    firstName: Elina
+    workEmail: elina@status.im
+    customStatusPublicKey: null
+    customGitHubusername: null
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=33e19f0f7d1a63f9e498a180f2ed1764'
