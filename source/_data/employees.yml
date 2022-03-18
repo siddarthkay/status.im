@@ -136,7 +136,7 @@ employees:
     firstName: Jakub
     division: null
     workEmail: jakub@status.im
-    customStatusPublicKey: jakubgs.eth
+    customStatusPublicKey: '0x3df3DDEC5CA49D838Ec7913659089A3fd20057fd'
     customGitHubusername: jakubgs
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=7a1e11e59ddead96211a2263934982a8'
   - id: '111'
@@ -328,7 +328,7 @@ employees:
   - id: '200'
     firstName: Rachel
     workEmail: rachelwilkinson@status.im
-    customStatusPublicKey: null
+    customStatusPublicKey: '0x0428d402cb70eec24f510dc44ebb260337b6954eb8b0154ba8ca40634a776180db5e2996c78f1e5db2ae504b398aca0a3949d22478c4b31b359e5d182d98b0a939'
     customGitHubusername: null
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=9c2e83d630763ae4a220060d97fbac25'
   - id: '201'
@@ -340,7 +340,7 @@ employees:
   - id: '203'
     firstName: Brian
     workEmail: brian@status.im
-    customStatusPublicKey: null
+    customStatusPublicKey: '0x04c5a3b50c5d57f44babe068b1ca57781a1b79007e40baa90e09f24a80469aeba97fe56247f1868ebffe94efdf08b6315b4c5837bd7e766af61c117650ce76c3ae'
     customGitHubusername: briansztamfater
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=ce7d7d574c735b15d6a380bc19a5310d'
   - id: '204'
@@ -479,7 +479,7 @@ employees:
     firstName: Riccardo
     workEmail: riccardo@status.im
     customStatusPublicKey: '0x04d90209e76192c5f10f8b61780b89f1c11e517e48f4a3865a6d54836cafac129a85532bee2eef0b1fa311d9feb64b30088bcee57adad73b7a159d119b3284e5f2'
-    customGitHubusername: null
+    customGitHubusername: rcc84
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=c23343fa723a56a08d5c13248a538c2e'
   - id: '243'
     firstName: Catia
@@ -526,8 +526,8 @@ employees:
   - id: '253'
     firstName: Pedro
     workEmail: pedro.et@status.im
-    customStatusPublicKey: null
-    customGitHubusername: null
+    customStatusPublicKey: '0x049e5ec282afd7f940feae29ed0198e1b2fa0c5619026354d19d9353f951c16a313c88c0f30dc155204da6d9632c2b1edd29fb2b48494589eb095cd6a2482aa954'
+    customGitHubusername: '@pedro-et'
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=aaea1ef9700051286bb8f1e0a8a371a7'
   - id: '254'
     firstName: Patryk
@@ -628,6 +628,6 @@ employees:
   - id: '272'
     firstName: Elina
     workEmail: elina@status.im
-    customStatusPublicKey: null
-    customGitHubusername: null
+    customStatusPublicKey: '0x043819f1d49ae3f67d80c538d3de9f5adc02b32c94b9098c9c3b8051ac349b4dcc0da4ed3c0e02ec8ccc61e22d767909575dafd452024b3fbad5403d754b9875ef'
+    customGitHubusername: elina2015
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=33e19f0f7d1a63f9e498a180f2ed1764'
