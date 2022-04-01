@@ -358,7 +358,7 @@ employees:
   - id: '206'
     firstName: Angel
     workEmail: angel@status.im
-    customStatusPublicKey: 'https://join.status.im/u/0x04c9c8a22b751082f32da537432a726047fcff984340529a722f4a57ae86154d29f1407daff9d6015dfb24922f54cacb37c0e924a92c38da55457f84d9e7bec6a6'
+    customStatusPublicKey: '0x04c9c8a22b751082f32da537432a726047fcff984340529a722f4a57ae86154d29f1407daff9d6015dfb24922f54cacb37c0e924a92c38da55457f84d9e7bec6a6'
     customGitHubusername: lilchichi
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=adefc4843200cafaa09a0cbeafcd4739'
   - id: '207'
@@ -442,7 +442,7 @@ employees:
   - id: '231'
     firstName: Etan
     workEmail: etan@status.im
-    customStatusPublicKey: 'https://join.status.im/u/0x041af07ff6d52a28f940efc5eb38470db2811a60e82c7ae0983a19aad991983b11427322442573bef5154ec008ecf2b99fcdb3198cbac127b0dec17641838e8f09'
+    customStatusPublicKey: '0x041af07ff6d52a28f940efc5eb38470db2811a60e82c7ae0983a19aad991983b11427322442573bef5154ec008ecf2b99fcdb3198cbac127b0dec17641838e8f09'
     customGitHubusername: etan-status
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=b1cf43d47b57dfd002110176ff43b9a4'
   - id: '235'
@@ -631,6 +631,12 @@ employees:
     customStatusPublicKey: '0x043819f1d49ae3f67d80c538d3de9f5adc02b32c94b9098c9c3b8051ac349b4dcc0da4ed3c0e02ec8ccc61e22d767909575dafd452024b3fbad5403d754b9875ef'
     customGitHubusername: elina2015
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=33e19f0f7d1a63f9e498a180f2ed1764'
+  - id: '274'
+    firstName: Jessie
+    workEmail: jessie@status.im
+    customStatusPublicKey: null
+    customGitHubusername: null
+    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=82b1fd72cd14839c2a977ad354edb5a5'
   - id: '276'
     firstName: Siddarth
     workEmail: siddarth@status.im
