@@ -79,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://status.im/web-three-browser/index.html</loc>
+    <loc>https://status.im/user_guides/pairing_devices.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -93,14 +93,7 @@
   </url>
   
   <url>
-    <loc>https://status.im/user_guides/pairing_devices.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://status.im/technical/report_a_bug.html</loc>
+    <loc>https://status.im/web-three-browser/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -108,6 +101,13 @@
   
   <url>
     <loc>https://status.im/technical/pfs.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://status.im/technical/report_a_bug.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -135,6 +135,13 @@
   </url>
   
   <url>
+    <loc>https://status.im/technical/contributor_guide.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://status.im/technical/contributor_workflow.html</loc>
     
     <lastmod>2022-01-20</lastmod>
@@ -149,21 +156,7 @@
   </url>
   
   <url>
-    <loc>https://status.im/technical/contributor_guide.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://status.im/technical/ens_usernames.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://status.im/technical/org_github_labels.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -184,7 +177,7 @@
   </url>
   
   <url>
-    <loc>https://status.im/technical/build_status/status_go.html</loc>
+    <loc>https://status.im/technical/org_github_labels.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -192,6 +185,13 @@
   
   <url>
     <loc>https://status.im/technical/build_status/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://status.im/technical/build_status/status_go.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -240,14 +240,14 @@
   </url>
   
   <url>
-    <loc>https://status.im/research/dark_routing.html</loc>
+    <loc>https://status.im/referral-program/terms-and-conditions.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://status.im/research/index.html</loc>
+    <loc>https://status.im/research/dark_routing.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -261,14 +261,14 @@
   </url>
   
   <url>
-    <loc>https://status.im/research/secure_messaging_compendium.html</loc>
+    <loc>https://status.im/research/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://status.im/referral-program/terms-and-conditions.html</loc>
+    <loc>https://status.im/research/secure_messaging_compendium.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -282,14 +282,14 @@
   </url>
   
   <url>
-    <loc>https://status.im/research/whisper_pss.html</loc>
+    <loc>https://status.im/research/whisper_faqs.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://status.im/research/whisper_faqs.html</loc>
+    <loc>https://status.im/research/whisper_pss.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -352,13 +352,6 @@
   </url>
   
   <url>
-    <loc>https://status.im/get/index.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://status.im/get-involved/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
@@ -401,13 +394,6 @@
   </url>
   
   <url>
-    <loc>https://status.im/nightly/index.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://status.im/nft-nyc/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
@@ -415,7 +401,7 @@
   </url>
   
   <url>
-    <loc>https://status.im/our_team/faqs.html</loc>
+    <loc>https://status.im/nightly/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -429,7 +415,28 @@
   </url>
   
   <url>
+    <loc>https://status.im/our_team/applying_to_status.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://status.im/our_team/faqs.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://status.im/our_team/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://status.im/our_team/our_principles.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -450,13 +457,6 @@
   </url>
   
   <url>
-    <loc>https://status.im/our_team/our_principles.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://status.im/our_team/the_future.html</loc>
     
     <lastmod>2022-01-20</lastmod>
@@ -464,7 +464,7 @@
   </url>
   
   <url>
-    <loc>https://status.im/our_team/applying_to_status.html</loc>
+    <loc>https://status.im/get/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -478,28 +478,7 @@
   </url>
   
   <url>
-    <loc>https://status.im/get/android/index.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://status.im/get/macos/index.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://status.im/get-involved/community-groups/index.html</loc>
-    
-    <lastmod>2022-01-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://status.im/get/windows/index.html</loc>
+    <loc>https://status.im/get/apk/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -513,14 +492,21 @@
   </url>
   
   <url>
-    <loc>https://status.im/get/apk/index.html</loc>
+    <loc>https://status.im/get/macos/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://status.im/get-involved/educators/index.html</loc>
+    <loc>https://status.im/get/windows/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://status.im/get-involved/community-groups/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -534,7 +520,14 @@
   </url>
   
   <url>
-    <loc>https://status.im/developer_tools/intro_extensions.html</loc>
+    <loc>https://status.im/get-involved/educators/index.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://status.im/get/android/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -548,7 +541,7 @@
   </url>
   
   <url>
-    <loc>https://status.im/developer_tools/troubleshooting_dapps.html</loc>
+    <loc>https://status.im/developer_tools/intro_extensions.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -556,6 +549,13 @@
   
   <url>
     <loc>https://status.im/developer_tools/status_web_api.html</loc>
+    
+    <lastmod>2022-01-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://status.im/developer_tools/troubleshooting_dapps.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -611,14 +611,14 @@
   </url>
   
   <url>
-    <loc>https://status.im/developer_tools/run_on_status/dapp_store_requirements.html</loc>
+    <loc>https://status.im/developer_tools/run_on_status/assets_guidelines.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://status.im/developer_tools/run_on_status/assets_guidelines.html</loc>
+    <loc>https://status.im/developer_tools/run_on_status/dapp_store_requirements.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -632,14 +632,14 @@
   </url>
   
   <url>
-    <loc>https://status.im/developer_tools/run_on_status/mobile_dev_tools.html</loc>
+    <loc>https://status.im/developer_tools/run_on_status/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://status.im/developer_tools/run_on_status/index.html</loc>
+    <loc>https://status.im/developer_tools/run_on_status/mobile_dev_tools.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -695,14 +695,14 @@
   </url>
   
   <url>
-    <loc>https://status.im/criptomaniacos/index.html</loc>
+    <loc>https://status.im/build_status/makefile_tour.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://status.im/build_status/makefile_tour.html</loc>
+    <loc>https://status.im/criptomaniacos/index.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
@@ -744,14 +744,14 @@
   </url>
   
   <url>
-    <loc>https://status.im/developer_tools/enable_chat.html</loc>
+    <loc>https://status.im/developer_tools/detecting_status.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
   </url>
   
   <url>
-    <loc>https://status.im/developer_tools/detecting_status.html</loc>
+    <loc>https://status.im/developer_tools/enable_chat.html</loc>
     
     <lastmod>2022-01-20</lastmod>
     
