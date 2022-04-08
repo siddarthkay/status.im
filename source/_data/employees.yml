@@ -193,12 +193,6 @@ employees:
     customStatusPublicKey: '0x04f34d0a6dc119d4ac206229fea42cdf4b2d6537d5992545660fc2f68f5ccc207a512b168546c1dd893112e3ea829cd26f173ff710626f9eb323c0bac5c79c7987'
     customGitHubusername: PascalPrecht
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=a8b716db2dfda6ab3683805b4cb639f2'
-  - id: '148'
-    firstName: Ștefan
-    workEmail: stefan@status.im
-    customStatusPublicKey: '0x0479be6aeb209d22f81363d8fc2d199e9cf8edf75731df6d5e4c7f9cb411afaecfd55088e2c8634877203df1f605bf7daaf07245012af2f206d388b80046a0abe8'
-    customGitHubusername: stefantalpalaru
-    photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=8c3a6f50ec01a82108435e569577539b'
   - id: '149'
     firstName: Alex
     workEmail: alex@status.im
@@ -329,7 +323,7 @@ employees:
     firstName: Rachel
     workEmail: rachelwilkinson@status.im
     customStatusPublicKey: '0x0428d402cb70eec24f510dc44ebb260337b6954eb8b0154ba8ca40634a776180db5e2996c78f1e5db2ae504b398aca0a3949d22478c4b31b359e5d182d98b0a939'
-    customGitHubusername: null
+    customGitHubusername: w-rachel
     photoUrl: 'https://statusim.bamboohr.com/employees/photos/?h=9c2e83d630763ae4a220060d97fbac25'
   - id: '201'
     firstName: Michael
