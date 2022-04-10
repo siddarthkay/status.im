@@ -263,6 +263,10 @@ td:nth-child(1) {
   transform: rotate(90deg);
 }
 
+div.description a {
+  text-decoration: underline !important;
+  color: -webkit-link !important;
+}
 
 // Importing Vendored Keycard SCSS
 @import 'animations';
